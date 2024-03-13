@@ -1,0 +1,6 @@
+.mainBg {
+    background-image: url(../../public/img/techo2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

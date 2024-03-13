@@ -1,0 +1,16 @@
+.sticky-wp {
+    max-width: 76px;
+    position: absolute;
+    position: fixed;
+    background: linear-gradient(45deg, #0b5304, #a4f34a);
+    left: 15px;
+    bottom: 15px;    
+    padding: 5px;    
+    box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.41);
+  }
+  
+  .sticky-wp:hover {
+    background: linear-gradient(45deg, #0b5304, #c8f891);
+  }
