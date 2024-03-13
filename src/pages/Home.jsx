@@ -22,19 +22,19 @@ export const Home = () => {
   return (
     <main className="w-screen bg-slate-200">
       <MainLayout>
-        <main>
+        <div>
           <section className="p-4 flex flex-wrap justify-between gap-8 max-w-[1400px] m-auto">
             <Card
               text={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
               }
-              title={"Chapas Translucidas"}
+              title={"Chapas Traslúcidas"}
               img={img1}
             />
             <Card
               text={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
-              }
+              } 
               title={"Canaletas"}
               img={img2}
             />
@@ -152,7 +152,7 @@ export const Home = () => {
               />
             </div>
           </div>
-        </main>
+        </div>
       </MainLayout>
     </main>
   );
