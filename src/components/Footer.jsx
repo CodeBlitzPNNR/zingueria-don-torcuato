@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import logoWhite from "/img/logoWhite.png"
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-t from-black to-slate-800">
+    <footer className="bg-gradient-to-t from-black to-slate-800 py-10">
       <div className="container m-auto flex gap-5 text-slate-300 justify-between font-medium py-4">
         <div className="flex gap-12">
           <ul className="flex flex-col gap-2 p-3">
@@ -43,7 +44,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center items-center text-center font-semibold text-slate-400">
           <a href="#top">
             <img
-              src="./img/logoWhite.png"
+              src={logoWhite}
               alt="Logo"
               className="drop-shadow-xl w-[200px]"
             />
@@ -55,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-black">
-        <div className="container m-auto text-right font-bold p-2">
+        <div className="container m-auto text-right font-bold p-2 h-[48px]">
           <h6 className="text-white">Zinguería Don Torcuato - 2024 ©</h6>
         </div>
       </div>

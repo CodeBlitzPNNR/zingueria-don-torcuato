@@ -7,8 +7,7 @@ const MainLayout = ({ children }) => {
   return (
     <main className="min-h-screen flex flex-col justify-between">
       <Banner /> 
-          <Navbar />
-          
+          <Navbar />          
 
             { children }
           

@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import "./form.css";
-import contactImg from "../../public/img/contact.jpg";
+import contactImg from "/img/contact.jpg";
 
 export default function Form() {
   const {

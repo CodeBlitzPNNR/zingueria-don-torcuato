@@ -1,7 +1,8 @@
 import React from 'react'
 import './card.css'
+import { Link } from 'react-router-dom'
 
-const Card = ({ title, text, img }) => {
+const Card = ({ title, text, img, route }) => {
   return (
     <div className="card">
       <img src={img}/>
@@ -10,7 +11,7 @@ const Card = ({ title, text, img }) => {
         <p>
           {text}
         </p>
-        <button><a href="">Leer más...</a></button>
+        <Link to={route}><button>Leer más...</button></Link>
       </div>
     </div>
   )
