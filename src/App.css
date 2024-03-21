@@ -10,7 +10,7 @@
 img, video, svg {
   display: block;
   height: auto;
-  max-width: 100%;
+  max-width: 100%;  
 }
 
 body {

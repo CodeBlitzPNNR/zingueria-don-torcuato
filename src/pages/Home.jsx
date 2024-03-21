@@ -23,7 +23,8 @@ export const Home = () => {
     <main className="w-screen bg-slate-200">
       <MainLayout>
         <div>
-          <section className="p-4 flex flex-wrap justify-between gap-8 max-w-[1400px] m-auto">
+          <section className="p-4 flex flex-wrap justify-center xl:justify-between gap-7 max-w-[1400px] m-auto">
+            <div className="mt-10">
             <Card
               text={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
@@ -32,14 +33,18 @@ export const Home = () => {
               img={img1}
               route={"/servicios/chapas"}
             />
+            </div>
+            <div className="mt-10">
             <Card
               text={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
-              } 
+              }
               title={"Canaletas"}
               img={img2}
               route={"/servicios/canaletas"}
             />
+            </div>
+            <div className="mt-10">
             <Card
               text={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
@@ -48,6 +53,8 @@ export const Home = () => {
               img={img3}
               route={"/servicios/bandas"}
             />
+            </div>
+            <div className="mt-10">
             <Card
               text={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
@@ -56,6 +63,8 @@ export const Home = () => {
               img={img4}
               route={"/servicios/extraccion"}
             />
+            </div>
+            <div className="mt-10">
             <Card
               text={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
@@ -64,6 +73,8 @@ export const Home = () => {
               img={img5}
               route={"/servicios/claraboyas"}
             />
+            </div>
+            <div className="mt-10">
             <Card
               text={
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
@@ -72,46 +83,50 @@ export const Home = () => {
               img={img6}
               route={"/servicios/pedido"}
             />
+            </div>            
           </section>
 
           {/* ABOUT SECTION */}
           <section
             id="about"
-            className="h-screen max-h-[800px] p-4 mt-4 bg-gradient-to-b from-slate-950 to-slate-700 shadow-2xl shadow-black"
-          >
-            <div className="container m-auto flex items-center h-full">
-            <div className="flex justify-center w-[3200px]">
-              <img src={img7} alt="Img Nosotros" className="bg-black rounded-lg w-[100%]" />
-            </div>
-            <div className="p-4 max-h-[60%] h-full my-auto flex flex-col justify-around text-xl text-slate-300 gap-4">
-              <div className="container m-auto h-full flex items-center justify-center">
+            className="h-screen max-h-[800px] p-4 mt-4 bg-gradient-to-b from-slate-950 to-slate-700 shadow-2xl shadow-black"          >
+            <div className="container m-auto h-full flex flex-col justify-center">
+              <div className="p-4 max-h-[70%] h-full flex text-slate-300 ">
+                <div className="flex flex-col max-w-2xl justify-center items-center px-4">
+                  <img
+                    src="./img/logoWhite.png"
+                    alt="Logo"
+                    className="drop-shadow-2xl max-w-[300px]"
+                  />
+                  <h2 className="lg:text-2xl text-2xl font-semibold text-white my-3">
+                  ¿Quienes somos?
+                </h2>
+                <p className="lg:text-lg text-xl mb-3 ">
+                  Somos una empresa dedicada a la fabricación e instalación de
+                  zinguería en general enfocada en brindar servicio a la
+                  industria y el comercio.
+                </p>
+                <p className="lg:text-lg text-xl">
+                  Nuestra amplia experiencia, control de calidad y servicio son
+                  el reflejo de nuestros trabajos
+                </p>          
+                <p className="lg:text-lg text-xl text-slate-300 mt-3">
+                  Ofrecemos servicio en el día y a domicilio atendemos en:
+                  Capital Federal y zona Norte del gran Buenos Aires. Nos
+                  especializamos en: Techos de chapa, colocación de extractores
+                  eólicos, reemplazo de chapas plásticas galvanizadas, fibro
+                  cemento, provisión y recambio de todo tipo de canaletas y
+                  zinguerias en general.
+                </p>      
+                </div>                
+                <div className="lg:flex justify-center p-2 bg-white shadow-lg rounded-md hidden">
                 <img
-                  src="./img/logoWhite.png"
-                  alt="Logo"
-                  className="drop-shadow-2xl w-[350px]"
+                  src={img7}
+                  alt="Img Nosotros"
+                  className="bg-black rounded-lg"
                 />
-              </div>
-              <h2 className="text-2xl font-semibold text-white mb-2">
-                ¿Quienes somos?
-              </h2>
-              <p className="text-lg">
-                Somos una empresa dedicada a la fabricación e instalación de
-                zinguería en general enfocada en brindar servicio a la industria
-                y el comercio. .
-              </p>
-              <p className="text-lg">
-                Nuestra amplia experiencia, control de calidad y servicio son el
-                reflejo de nuestros trabajos
-              </p>
-              <p className="text-lg">
-                Ofrecemos servicio en el día y a domicilio atendemos en: Capital
-                Federal y zona Norte del gran Buenos Aires. Nos especializamos
-                en: Techos de chapa, colocación de extractores eólicos,
-                reemplazo de chapas plásticas galvanizadas, fibro cemento,
-                provisión y recambio de todo tipo de canaletas y zinguerias en
-                general.
-              </p>
-            </div>
+              </div>              
+              </div>             
             </div>
           </section>
           <div className="px-4 py-12 rounded-lg my-2">

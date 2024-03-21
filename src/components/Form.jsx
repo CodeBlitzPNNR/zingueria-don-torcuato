@@ -17,9 +17,9 @@ export default function Form() {
         <img
           src={contactImg}
           alt="Imagen de Contact"
-          className="w-1/2 pr-5 border-r-2 border-slate-200 rounded-tl-2xl rounded-bl-2xl"
+          className="w-1/2 pr-5 border-r-2 border-slate-200 rounded-tl-2xl rounded-bl-2xl hidden md:block"
         />
-        <div className="w-1/2 flex flex-col justify-around">
+        <div className="w-full md:w-1/2 flex flex-col justify-around">
           <label className="text-slate-100 font-semibold text-4xl">
             Contacto
           </label>
