@@ -98,19 +98,19 @@ export const Home = () => {
                     alt="Logo"
                     className="drop-shadow-2xl max-w-[300px]"
                   />
-                  <h2 className="lg:text-2xl text-2xl font-semibold text-white my-3">
+                  <h2 className="lg:text-2xl text-xl font-semibold text-white my-3">
                   ¿Quienes somos?
                 </h2>
-                <p className="lg:text-lg text-xl mb-3 ">
+                <p className="lg:text-lg text-md mb-3 ">
                   Somos una empresa dedicada a la fabricación e instalación de
                   zinguería en general enfocada en brindar servicio a la
                   industria y el comercio.
                 </p>
-                <p className="lg:text-lg text-xl">
+                <p className="lg:text-lg text-md">
                   Nuestra amplia experiencia, control de calidad y servicio son
                   el reflejo de nuestros trabajos
                 </p>          
-                <p className="lg:text-lg text-xl text-slate-300 mt-3">
+                <p className="lg:text-lg text-md text-slate-300 mt-3">
                   Ofrecemos servicio en el día y a domicilio atendemos en:
                   Capital Federal y zona Norte del gran Buenos Aires. Nos
                   especializamos en: Techos de chapa, colocación de extractores
