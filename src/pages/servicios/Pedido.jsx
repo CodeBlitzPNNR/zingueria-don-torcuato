@@ -1,6 +1,7 @@
 import React from "react";
 import MainLayout from "../../layout/MainLayout";
 import Galeria from '../../components/Galeria'
+import Carousel from "../../components/Carousel";
 import { ChevronDoubleRightIcon, SunIcon, WalletIcon } from "@heroicons/react/20/solid";
 
 const Pedido = () => {
@@ -227,10 +228,7 @@ const Pedido = () => {
               </div>
             </div>
           </div>
-        </section>
-        <section>        
-          <Galeria itemData={fotos} title={'Trabajos a pedido'} />
-        </section>
+        </section>   
         <section className="bg-white p-4" >
           <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
             <h2 className=" font-bold text-3xl text-white text-center mb-2">Galería</h2>

@@ -1,5 +1,6 @@
 import React from "react";
 import Galeria from '../../components/Galeria'
+import Carousel from "../../components/Carousel";
 import MainLayout from "../../layout/MainLayout";
 import {  
   SunIcon,
@@ -179,10 +180,7 @@ const Chapas = () => {
               </div>
             </div>
           </div>
-        </section>
-        <section>        
-          <Galeria itemData={fotos} title={'Trabajos con chapas traslúcidas'} />
-        </section>
+        </section>      
         <section className="bg-white p-4" >
           <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
             <h2 className=" font-bold text-3xl text-white text-center mb-2">Galería</h2>
