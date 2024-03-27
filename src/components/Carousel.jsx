@@ -19,7 +19,7 @@ export default function SimpleSlider() {
           <Zoom>
             <img
               className=" rounded-xl"
-              src="../../public/img/gallery/can1.JPG"
+              src="../../img/gallery/can1.JPG"
               alt="Imagen Slider 1"
             />
           </Zoom>
@@ -28,7 +28,7 @@ export default function SimpleSlider() {
           <Zoom>
             <img
               className=" rounded-xl"
-              src="../../public/img/gallery/can2.JPG"
+              src="../../img/gallery/can2.JPG"
               alt="Imagen Slider 2"
             />
           </Zoom>
@@ -37,7 +37,7 @@ export default function SimpleSlider() {
           <Zoom>
             <img
               className=" rounded-xl"
-              src="../../public/img/gallery/can3.JPG"
+              src="../../img/gallery/can3.JPG"
               alt="Imagen Slider 3"
             />
           </Zoom>
@@ -46,7 +46,7 @@ export default function SimpleSlider() {
           <Zoom>
             <img
               className=" rounded-xl"
-              src="../../public/img/gallery/can4.JPG"
+              src="../../img/gallery/can4.JPG"
               alt="Imagen Slider 4"
             />
           </Zoom>
@@ -55,7 +55,7 @@ export default function SimpleSlider() {
           <Zoom>
             <img
               className=" rounded-xl"
-              src="../../public/img/gallery/can5.JPG"
+              src="../../img/gallery/can5.JPG"
               alt="Imagen Slider 5"
             />
           </Zoom>
