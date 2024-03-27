@@ -1,71 +1,75 @@
 import React from "react";
 import MainLayout from "../../layout/MainLayout";
-import Galeria from '../../components/Galeria'
-import { CloudArrowDownIcon, LockClosedIcon, SunIcon, WalletIcon } from "@heroicons/react/20/solid";
+import Carousel from "../../components/Carousel";
+import {
+  CloudArrowDownIcon,
+  LockClosedIcon,
+  SunIcon,
+  WalletIcon,
+} from "@heroicons/react/20/solid";
 
 const Bandas = () => {
-
   const fotos = [
     {
-      img: '/img/gallery/can1.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can1.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can2.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can2.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can3.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can3.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can4.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can4.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can5.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can5.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can6.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can6.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can7.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can7.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can8.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can8.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can9.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can9.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can10.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can10.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can11.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can11.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can12.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can12.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can13.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can13.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can14.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can14.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can15.JPG',
-      title: 'Canaletas',
-    }
+      img: "/img/gallery/can15.JPG",
+      title: "Canaletas",
+    },
   ];
 
   return (
@@ -191,8 +195,11 @@ const Bandas = () => {
             </div>
           </div>
         </section>
-        <section>        
-          <Galeria itemData={fotos} title={'Trabajos con bandas perimetrales'} />
+        <section className="bg-white p-4" >
+          <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
+            <h2 className=" font-bold text-3xl text-white text-center mb-2">Galería</h2>
+            <Carousel prefix={'ban'}/>
+          </div>
         </section>
       </MainLayout>
     </main>
