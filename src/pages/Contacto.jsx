@@ -6,7 +6,7 @@ import './contacto.css'
 
 export const Contacto = () => {
   return (
-    <main className="w-screen min-h-screen bg-slate-300 bg-img">
+    <main className="w-full min-h-screen bg-slate-300 bg-img">
     <MainLayout>
         <section className='py-5 flex'>
             <Form />          

@@ -27,9 +27,9 @@ export const Home = () => {
             <div className="mt-10">
             <Card
               text={
-                "El reemplazo de las chapas translúcidas o comunmente llamadas plásticas, es un trabajo que se realiza..."
+                "El reemplazo de las chapas traslúcidas o comunmente llamadas plásticas, es un trabajo que se realiza..."
               }
-              title={"Chapas Traslúcidas"}
+              title={"Chapas Translúcidas"}
               img={img1}
               route={"/servicios/chapas"}
             />
