@@ -27,7 +27,7 @@ export const Home = () => {
             <div className="mt-10">
             <Card
               text={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
+                "El reemplazo de las chapas traslucidas o comúnmente llamadas plásticas, es un trabajo que se realiza..."
               }
               title={"Chapas Traslúcidas"}
               img={img1}
@@ -37,7 +37,7 @@ export const Home = () => {
             <div className="mt-10">
             <Card
               text={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
+                "Fabricadas típicamente en metal, PVC o aluminio, estas estructuras se instalan a lo largo del borde..."
               }
               title={"Canaletas"}
               img={img2}
@@ -47,7 +47,7 @@ export const Home = () => {
             <div className="mt-10">
             <Card
               text={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
+                "Las bandas perimetrales se utilizan para realizar la dilatación entre el techo y los muros de carga..."
               }
               title={"Bandas perimetrales"}
               img={img3}
@@ -57,7 +57,7 @@ export const Home = () => {
             <div className="mt-10">
             <Card
               text={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
+                "Su función principal es mejorar la circulación del aire, eliminar olores no deseados, reducir..."
               }
               title={"Extraccion"}
               img={img4}
@@ -67,7 +67,7 @@ export const Home = () => {
             <div className="mt-10">
             <Card
               text={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
+                "Las claraboyas o ventanas de techo se pueden instalar sobre distintos tipos de techados..."
               }
               title={"Claraboyas"}
               img={img5}
@@ -77,7 +77,7 @@ export const Home = () => {
             <div className="mt-10">
             <Card
               text={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis sunt explicabo laborum quod itaque."
+                "Cada trabajo se realiza buscando cumplir con los más altos estándares de calidad y satisfacer únicas..."
               }
               title={"Trabajos a pedido"}
               img={img6}
