@@ -71,7 +71,7 @@ const Bandas = () => {
   ];
 
   return (
-    <main className="w-full">
+    <main className="w-screen">
       <MainLayout>
         <section>
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0 container m-auto w-[100%]">
