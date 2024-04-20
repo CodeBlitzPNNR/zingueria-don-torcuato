@@ -7,34 +7,34 @@ const Footer = () => {
       <div className="container m-auto flex gap-5 text-slate-200 justify-between lg:font-medium lg:font py-3 md:flex-row flex-col">
         <div className="flex gap-12">
           <ul className="flex flex-col gap-2 p-3">
-            <li className="cursor-pointer hover:text-sky-300">
-              <Link to={'/'}>Inicio</Link>
+            <li>
+              <Link className="cursor-pointer hover:text-sky-300" to={'/'}>Inicio</Link>
             </li>            
-            <li className="cursor-pointer hover:text-sky-300">
-              <Link to={'/contacto'}>Contacto</Link>
+            <li>
+              <Link className="cursor-pointer hover:text-sky-300" to={'/contacto'}>Contacto</Link>
             </li>
-            <li className="cursor-pointer hover:text-sky-300">
-              <a>Acceso a sistema</a>
+            <li>
+              <a className="cursor-pointer hover:text-sky-300" href="/">Acceso a sistema</a>
             </li>
           </ul>
           <ul className="flex flex-col gap-2 p-3">
-            <li className="cursor-pointer hover:text-sky-300">
-              <Link>Canaletas</Link>
+            <li>
+              <Link className="cursor-pointer hover:text-sky-300" to={'/servicios/canaletas'}>Canaletas</Link>
             </li>
-            <li className="cursor-pointer hover:text-sky-300">
-              <Link>Eólicos</Link>
+            <li>
+              <Link className="cursor-pointer hover:text-sky-300" to={'/servicios/extraccion'}>Extracción</Link>
             </li>
-            <li className="cursor-pointer hover:text-sky-300">
-              <Link>Chapas Traslúcidas</Link>
+            <li>
+              <Link className="cursor-pointer hover:text-sky-300" to={'/servicios/chapas'}>Chapas Traslúcidas</Link>
             </li>
-            <li className="cursor-pointer hover:text-sky-300">
-              <Link>Claraboyas</Link>
+            <li>
+              <Link className="cursor-pointer hover:text-sky-300" to={'/servicios/claraboyas'}>Claraboyas</Link>
             </li>
-            <li className="cursor-pointer hover:text-sky-300">
-              <Link>Techos</Link>
+            <li>
+              <Link className="cursor-pointer hover:text-sky-300" to={'/servicios/bandas'}>Bandas perimetrales</Link>
             </li>
-            <li className="cursor-pointer hover:text-sky-300">
-              <Link>Trabajos a Pedido</Link>
+            <li>
+              <Link className="cursor-pointer hover:text-sky-300" to={'/servicios/pedido'}>Trabajos a Pedido</Link>
             </li>
           </ul>
         </div>
