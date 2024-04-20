@@ -8,13 +8,10 @@ const Footer = () => {
         <div className="flex gap-12">
           <ul className="flex flex-col gap-2 p-3">
             <li className="cursor-pointer hover:text-sky-300">
-              <Link>Inicio</Link>
-            </li>
+              <Link to={'/'}>Inicio</Link>
+            </li>            
             <li className="cursor-pointer hover:text-sky-300">
-              <Link>Empresa</Link>
-            </li>
-            <li className="cursor-pointer hover:text-sky-300">
-              <Link>Contacto</Link>
+              <Link to={'/contacto'}>Contacto</Link>
             </li>
             <li className="cursor-pointer hover:text-sky-300">
               <a>Acceso a sistema</a>
