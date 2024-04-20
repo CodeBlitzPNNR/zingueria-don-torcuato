@@ -1,75 +1,71 @@
 import React from "react";
-import Galeria from '../../components/Galeria'
+import Galeria from "../../components/Galeria";
 import Carousel from "../../components/Carousel";
 import MainLayout from "../../layout/MainLayout";
-import {  
-  SunIcon,
-  WalletIcon,
-} from "@heroicons/react/20/solid";
+import { SunIcon, WalletIcon } from "@heroicons/react/20/solid";
 
 const Chapas = () => {
-
   const fotos = [
     {
-      img: '/img/gallery/can1.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can1.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can2.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can2.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can3.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can3.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can4.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can4.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can5.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can5.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can6.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can6.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can7.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can7.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can8.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can8.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can9.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can9.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can10.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can10.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can11.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can11.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can12.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can12.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can13.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can13.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can14.JPG',
-      title: 'Canaletas',
+      img: "/img/gallery/can14.JPG",
+      title: "Canaletas",
     },
     {
-      img: '/img/gallery/can15.JPG',
-      title: 'Canaletas',
-    }
+      img: "/img/gallery/can15.JPG",
+      title: "Canaletas",
+    },
   ];
 
   return (
@@ -119,11 +115,11 @@ const Chapas = () => {
                       Chapas traslúcidas
                     </h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                      El reemplazo de las chapas traslucidas o comúnmente
+                      El reemplazo de las chapas translúcidas o comúnmente
                       llamadas plásticas, es un trabajo que se realiza luego de
                       un tiempo, cuando las chapas cumplen su ciclo de uso y ya
-                      no permiten la entrada de luz además de generar
-                      filtraciones. 
+                      no permiten la entrada de luz, además de generar
+                      filtraciones.
                     </p>
                   </div>
                 </div>
@@ -139,10 +135,10 @@ const Chapas = () => {
                 <div className="lg:pr-4">
                   <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                     <p>
-                    Comúnmente se instalan en galpones donde las
-                      grandes extensiones de mts. Cubiertos necesitan de luz
+                      Comúnmente se instalan en galpones donde las grandes
+                      extensiones de metros cuadrados cubiertos necesitan de luz
                       natural para el desarrollo de la actividad y el ahorro de
-                      luz eléctrica. 
+                      energía eléctrica.
                     </p>
                     <ul role="list" className="mt-8 space-y-8 text-gray-600">
                       <li className="flex gap-x-3">
@@ -154,14 +150,14 @@ const Chapas = () => {
                           <strong className="font-semibold text-gray-900">
                             Versatilidad.
                           </strong>{" "}
-                          Existen diferentes tipos de materiales
-                      desde las tradicionales de fibra de vidrio a materiales
-                      más modernos como el policarbonato, el acrílico o el
-                      polipropileno. Este último es el más usado por la relación
-                      costo / resistencia.
+                          Existen diferentes tipos de materiales, desde los
+                          tradicionales de fibra de vidrio hasta materiales más
+                          modernos como el policarbonato, el acrílico o el
+                          polipropileno. Este último es el más usado debido a la
+                          relación costo/resistencia.
                         </span>
                       </li>
-                      
+
                       <li className="flex gap-x-3">
                         <SunIcon
                           className="mt-1 h-5 w-5 flex-none text-indigo-600"
@@ -169,21 +165,23 @@ const Chapas = () => {
                         />
                         <span>
                           <strong className="font-semibold text-gray-900">
-                          Eficiencia energética.
+                            Eficiencia energética.
                           </strong>{" "}
-                          Las chapas traslúcidas permiten el paso de la luz natural, reduciendo la dependencia de la iluminación artificial y disminuyendo así el consumo de energía eléctrica.
+                          Las chapas translúcidas permiten el paso de la luz natural, reduciendo la dependencia de la iluminación artificial y disminuyendo así el consumo de energía eléctrica.
                         </span>
                       </li>
-                    </ul>                           
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>      
-        <section className="bg-white p-4" >
+        </section>
+        <section className="bg-white p-4">
           <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
-            <h2 className=" font-bold text-3xl text-white text-center mb-2">Galería</h2>
+            <h2 className=" font-bold text-3xl text-white text-center mb-2">
+              Galería
+            </h2>
             <Carousel />
           </div>
         </section>

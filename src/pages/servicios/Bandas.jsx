@@ -3,9 +3,7 @@ import MainLayout from "../../layout/MainLayout";
 import Carousel from "../../components/Carousel";
 import {
   CloudArrowDownIcon,
-  LockClosedIcon,
-  SunIcon,
-  WalletIcon,
+  LockClosedIcon,  
 } from "@heroicons/react/20/solid";
 
 const Bandas = () => {

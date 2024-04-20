@@ -20,14 +20,14 @@ import img7 from "/img/about.jpg";
 
 export const Home = () => {
   return (
-    <main className="w-screen bg-slate-200">
+    <main className="w-full bg-slate-200">
       <MainLayout>
         <div>
           <section className="p-4 flex flex-wrap justify-center xl:justify-between gap-7 max-w-[1400px] m-auto">
             <div className="mt-10">
             <Card
               text={
-                "El reemplazo de las chapas traslucidas o comúnmente llamadas plásticas, es un trabajo que se realiza..."
+                "El reemplazo de las chapas translúcidas o comunmente llamadas plásticas, es un trabajo que se realiza..."
               }
               title={"Chapas Traslúcidas"}
               img={img1}
