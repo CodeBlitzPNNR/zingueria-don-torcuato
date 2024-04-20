@@ -23,7 +23,7 @@ export const Home = () => {
     <main className="w-screen bg-slate-200">
       <MainLayout>
         <div>
-          <section className="p-4 flex flex-wrap justify-center xl:justify-between gap-7 max-w-[1400px] m-auto">
+          <section className="flex flex-wrap justify-center xl:justify-between max-w-[1400px] m-auto">
             <div className="mt-10">
             <Card
               text={
