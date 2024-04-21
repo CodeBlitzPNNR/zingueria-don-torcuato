@@ -3,7 +3,7 @@ import logoWhite from "/img/logoWhite.png"
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-t from-black to-slate-800 p-2">
+    <footer className="bg-black p-2">
       <div className="container m-auto flex gap-5 text-slate-200 justify-between lg:font-medium lg:font py-3 md:flex-row flex-col">
         <div className="flex gap-12">
           <ul className="flex flex-col gap-2 p-3">
@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
       <div className="bg-black">
         <div className="container m-auto text-right font-bold p-2 h-[48px]">
-          <h6 className="text-white">Zinguería Don Torcuato - 2024 ©</h6>
+          <h6 className="text-white sm:text-base text-sm">Zinguería Don Torcuato - 2024 ©</h6>
         </div>
       </div>
     </footer>

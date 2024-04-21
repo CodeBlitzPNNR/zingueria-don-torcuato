@@ -4,63 +4,60 @@ import Slider from "react-slick";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
-export default function SimpleSlider() {
+export default function SimpleSlider({ picData }) {
+
   var settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    initialSlide: 0,
+    adaptiveHeight: true,
+    infinite: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  }
+
   return (
     <section>
+      <div className="slider-container">
       <Slider {...settings}>
-        <div>
-          <Zoom>
-            <img
-              className=" rounded-xl"
-              src="../../img/gallery/can1.JPG"
-              alt="Imagen Slider 1"
-            />
-          </Zoom>
-        </div>
-        <div>
-          <Zoom>
-            <img
-              className=" rounded-xl"
-              src="../../img/gallery/can2.JPG"
-              alt="Imagen Slider 2"
-            />
-          </Zoom>
-        </div>
-        <div>
-          <Zoom>
-            <img
-              className=" rounded-xl"
-              src="../../img/gallery/can3.JPG"
-              alt="Imagen Slider 3"
-            />
-          </Zoom>
-        </div>
-        <div>
-          <Zoom>
-            <img
-              className=" rounded-xl"
-              src="../../img/gallery/can4.JPG"
-              alt="Imagen Slider 4"
-            />
-          </Zoom>
-        </div>
-        <div>
-          <Zoom>
-            <img
-              className=" rounded-xl"
-              src="../../img/gallery/can5.JPG"
-              alt="Imagen Slider 5"
-            />
-          </Zoom>
-        </div>
+
+      {picData.map(({ img, alt }, index) => (
+        <div className="h-full" key={index}>
+        <Zoom>          
+          <img src={img} alt={alt} />
+        </Zoom>
+      </div>
+      ))}         
+        
       </Slider>
+      </div>
     </section>
   );
 }

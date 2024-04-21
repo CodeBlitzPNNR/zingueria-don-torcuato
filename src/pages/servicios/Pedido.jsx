@@ -8,65 +8,58 @@ const Pedido = () => {
 
   const fotos = [
     {
-      img: '/img/gallery/can1.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped1.JPG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can2.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped2.JPEG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can3.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped3.JPEG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can4.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped4.JPEG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can5.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped5.JPG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can6.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped6.JPG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can7.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped7.JPG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can8.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped8.JPG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can9.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped9.JPG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can10.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped10.JPG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can11.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped11.JPG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can12.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped12.JPEG",
+      alt: "pedido",
     },
     {
-      img: '/img/gallery/can13.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/pedido/ped13.JPEG",
+      alt: "pedido",
     },
-    {
-      img: '/img/gallery/can14.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can15.JPG',
-      title: 'Canaletas',
-    }
+    
   ];
 
   return (
@@ -232,7 +225,7 @@ const Pedido = () => {
         <section className="bg-white p-4" >
           <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
             <h2 className=" font-bold text-3xl text-white text-center mb-2">Galería</h2>
-            <Carousel />
+            <Carousel picData={ fotos }/>
           </div>
         </section>
       </MainLayout>

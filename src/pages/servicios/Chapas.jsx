@@ -5,68 +5,37 @@ import MainLayout from "../../layout/MainLayout";
 import { SunIcon, WalletIcon } from "@heroicons/react/20/solid";
 
 const Chapas = () => {
+
   const fotos = [
     {
-      img: "/img/gallery/can1.JPG",
-      title: "Canaletas",
+      img: "../../../public/img/servicios/chapas/cha1.JPG",
+      alt: "chapas",
     },
     {
-      img: "/img/gallery/can2.JPG",
-      title: "Canaletas",
+      img: "../../../public/img/servicios/chapas/cha2.JPG",
+      alt: "chapas",
     },
     {
-      img: "/img/gallery/can3.JPG",
-      title: "Canaletas",
+      img: "../../../public/img/servicios/chapas/cha3.JPG",
+      alt: "chapas",
     },
     {
-      img: "/img/gallery/can4.JPG",
-      title: "Canaletas",
+      img: "../../../public/img/servicios/chapas/cha4.JPG",
+      alt: "chapas",
     },
     {
-      img: "/img/gallery/can5.JPG",
-      title: "Canaletas",
+      img: "../../../public/img/servicios/chapas/cha5.JPG",
+      alt: "chapas",
     },
     {
-      img: "/img/gallery/can6.JPG",
-      title: "Canaletas",
+      img: "../../../public/img/servicios/chapas/cha6.JPG",
+      alt: "chapas",
     },
     {
-      img: "/img/gallery/can7.JPG",
-      title: "Canaletas",
-    },
-    {
-      img: "/img/gallery/can8.JPG",
-      title: "Canaletas",
-    },
-    {
-      img: "/img/gallery/can9.JPG",
-      title: "Canaletas",
-    },
-    {
-      img: "/img/gallery/can10.JPG",
-      title: "Canaletas",
-    },
-    {
-      img: "/img/gallery/can11.JPG",
-      title: "Canaletas",
-    },
-    {
-      img: "/img/gallery/can12.JPG",
-      title: "Canaletas",
-    },
-    {
-      img: "/img/gallery/can13.JPG",
-      title: "Canaletas",
-    },
-    {
-      img: "/img/gallery/can14.JPG",
-      title: "Canaletas",
-    },
-    {
-      img: "/img/gallery/can15.JPG",
-      title: "Canaletas",
-    },
-  ];
+      img: "../../../public/img/servicios/chapas/cha7.JPG",
+      alt: "chapas",
+    }    
+  ];      
 
   return (
     <main className="w-screen">
@@ -182,7 +151,7 @@ const Chapas = () => {
             <h2 className=" font-bold text-3xl text-white text-center mb-2">
               Galería
             </h2>
-            <Carousel />
+            <Carousel picData={ fotos }/>
           </div>
         </section>
       </MainLayout>

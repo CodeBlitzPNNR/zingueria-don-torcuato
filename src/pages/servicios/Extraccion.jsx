@@ -8,65 +8,21 @@ const Extraccion = () => {
 
   const fotos = [
     {
-      img: '/img/gallery/can1.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/extraccion/ext1.JPG",
+      alt: "extraccion",
     },
     {
-      img: '/img/gallery/can2.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/extraccion/ext2.JPG",
+      alt: "extraccion",
     },
     {
-      img: '/img/gallery/can3.JPG',
-      title: 'Canaletas',
+      img: "../../../public/img/servicios/extraccion/ext3.JPEG",
+      alt: "extraccion",
     },
     {
-      img: '/img/gallery/can4.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can5.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can6.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can7.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can8.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can9.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can10.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can11.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can12.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can13.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can14.JPG',
-      title: 'Canaletas',
-    },
-    {
-      img: '/img/gallery/can15.JPG',
-      title: 'Canaletas',
-    }
+      img: "../../../public/img/servicios/extraccion/ext4.JPEG",
+      alt: "extraccion",
+    }    
   ];
 
   return (
@@ -192,7 +148,7 @@ const Extraccion = () => {
         <section className="bg-white p-4" >
           <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
             <h2 className=" font-bold text-3xl text-white text-center mb-2">Galería</h2>
-            <Carousel />
+            <Carousel picData={ fotos }/>
           </div>
         </section>
       </MainLayout>
