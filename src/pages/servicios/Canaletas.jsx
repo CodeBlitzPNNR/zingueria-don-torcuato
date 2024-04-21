@@ -8,43 +8,43 @@ const Canaletas = () => {
 
   const fotos = [
     {
-      img: "../../../public/img/servicios/canaletas/can1.JPG",
+      img: "/img/servicios/canaletas/can1.JPG",
       alt: "Canaletas",
     },
     {
-      img: "../../../public/img/servicios/canaletas/can2.JPG",
+      img: "/img/servicios/canaletas/can2.JPG",
       alt: "Canaletas",
     },
     {
-      img: "../../../public/img/servicios/canaletas/can3.JPG",
+      img: "/img/servicios/canaletas/can3.JPG",
       alt: "Canaletas",
     },
     {
-      img: "../../../public/img/servicios/canaletas/can4.JPG",
+      img: "/img/servicios/canaletas/can4.JPG",
       alt: "Canaletas",
     },
     {
-      img: "../../../public/img/servicios/canaletas/can5.JPG",
+      img: "/img/servicios/canaletas/can5.JPG",
       alt: "Canaletas",
     },
     {
-      img: "../../../public/img/servicios/canaletas/can6.JPG",
+      img: "/img/servicios/canaletas/can6.JPG",
       alt: "Canaletas",
     },
     {
-      img: "../../../public/img/servicios/canaletas/can7.JPG",
+      img: "/img/servicios/canaletas/can7.JPG",
       alt: "Canaletas",
     },
     {
-      img: "../../../public/img/servicios/canaletas/can8.JPG",
+      img: "/img/servicios/canaletas/can8.JPG",
       alt: "Canaletas",
     },
     {
-      img: "../../../public/img/servicios/canaletas/can9.JPG",
+      img: "/img/servicios/canaletas/can9.JPG",
       alt: "Canaletas",
     },
     {
-      img: "../../../public/img/servicios/canaletas/can10.JPG",
+      img: "/img/servicios/canaletas/can10.JPG",
       alt: "Canaletas",
     },
     
@@ -109,7 +109,7 @@ const Canaletas = () => {
               <div className="p-4 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                 <img
                   className="w-[48rem] max-w-[100%] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]"
-                  src=" /img/sections/canaletas.jpg"
+                  src="/img/sections/canaletas.jpg"
                   alt=""
                 />
               </div>

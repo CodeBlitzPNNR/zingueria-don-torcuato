@@ -10,27 +10,27 @@ import {
 const Bandas = () => {
   const fotos = [
     {
-      img: "../../../public/img/servicios/bandas/ban1.JPG",
+      img: "/img/servicios/bandas/ban1.JPG",
       alt: "bandas",
     },
     {
-      img: "../../../public/img/servicios/bandas/ban2.JPG",
+      img: "/img/servicios/bandas/ban2.JPG",
       alt: "bandas",
     },
     {
-      img: "../../../public/img/servicios/bandas/ban3.JPG",
+      img: "/img/servicios/bandas/ban3.JPG",
       alt: "bandas",
     },
     {
-      img: "../../../public/img/servicios/bandas/ban4.JPG",
+      img: "/img/servicios/bandas/ban4.JPG",
       alt: "bandas",
     },
     {
-      img: "../../../public/img/servicios/bandas/ban5.JPEG",
+      img: "/img/servicios/bandas/ban5.JPEG",
       alt: "bandas",
     },
     {
-      img: "../../../public/img/servicios/bandas/ban6.JPEG",
+      img: "/img/servicios/bandas/ban6.JPEG",
       alt: "bandas",
     }    
   ];

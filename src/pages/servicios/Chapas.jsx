@@ -8,31 +8,31 @@ const Chapas = () => {
 
   const fotos = [
     {
-      img: "../../../public/img/servicios/chapas/cha1.JPG",
+      img: "/img/servicios/chapas/cha1.JPG",
       alt: "chapas",
     },
     {
-      img: "../../../public/img/servicios/chapas/cha2.JPG",
+      img: "/img/servicios/chapas/cha2.JPG",
       alt: "chapas",
     },
     {
-      img: "../../../public/img/servicios/chapas/cha3.JPG",
+      img: "/img/servicios/chapas/cha3.JPG",
       alt: "chapas",
     },
     {
-      img: "../../../public/img/servicios/chapas/cha4.JPG",
+      img: "/img/servicios/chapas/cha4.JPG",
       alt: "chapas",
     },
     {
-      img: "../../../public/img/servicios/chapas/cha5.JPG",
+      img: "/img/servicios/chapas/cha5.JPG",
       alt: "chapas",
     },
     {
-      img: "../../../public/img/servicios/chapas/cha6.JPG",
+      img: "/img/servicios/chapas/cha6.JPG",
       alt: "chapas",
     },
     {
-      img: "../../../public/img/servicios/chapas/cha7.JPG",
+      img: "/img/servicios/chapas/cha7.JPG",
       alt: "chapas",
     }    
   ];      

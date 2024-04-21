@@ -8,55 +8,55 @@ const Pedido = () => {
 
   const fotos = [
     {
-      img: "../../../public/img/servicios/pedido/ped1.JPG",
+      img: "/img/servicios/pedido/ped1.JPG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped2.JPEG",
+      img: "/img/servicios/pedido/ped2.JPEG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped3.JPEG",
+      img: "/img/servicios/pedido/ped3.JPEG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped4.JPEG",
+      img: "/img/servicios/pedido/ped4.JPEG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped5.JPG",
+      img: "/img/servicios/pedido/ped5.JPG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped6.JPG",
+      img: "/img/servicios/pedido/ped6.JPG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped7.JPG",
+      img: "/img/servicios/pedido/ped7.JPG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped8.JPG",
+      img: "/img/servicios/pedido/ped8.JPG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped9.JPG",
+      img: "/img/servicios/pedido/ped9.JPG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped10.JPG",
+      img: "/img/servicios/pedido/ped10.JPG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped11.JPG",
+      img: "/img/servicios/pedido/ped11.JPG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped12.JPEG",
+      img: "/img/servicios/pedido/ped12.JPEG",
       alt: "pedido",
     },
     {
-      img: "../../../public/img/servicios/pedido/ped13.JPEG",
+      img: "/img/servicios/pedido/ped13.JPEG",
       alt: "pedido",
     },
     
