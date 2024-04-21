@@ -8,7 +8,7 @@ const Pedido = () => {
 
   const fotos = [
     {
-      img: "/img/servicios/pedido/ped1.JPG",
+      img: "/img/servicios/pedido/ped1.jpg",
       alt: "pedido",
     },
     {
@@ -24,31 +24,31 @@ const Pedido = () => {
       alt: "pedido",
     },
     {
-      img: "/img/servicios/pedido/ped5.JPG",
+      img: "/img/servicios/pedido/ped5.jpg",
       alt: "pedido",
     },
     {
-      img: "/img/servicios/pedido/ped6.JPG",
+      img: "/img/servicios/pedido/ped6.jpg",
       alt: "pedido",
     },
     {
-      img: "/img/servicios/pedido/ped7.JPG",
+      img: "/img/servicios/pedido/ped7.jpg",
       alt: "pedido",
     },
     {
-      img: "/img/servicios/pedido/ped8.JPG",
+      img: "/img/servicios/pedido/ped8.jpg",
       alt: "pedido",
     },
     {
-      img: "/img/servicios/pedido/ped9.JPG",
+      img: "/img/servicios/pedido/ped9.jpg",
       alt: "pedido",
     },
     {
-      img: "/img/servicios/pedido/ped10.JPG",
+      img: "/img/servicios/pedido/ped10.jpg",
       alt: "pedido",
     },
     {
-      img: "/img/servicios/pedido/ped11.JPG",
+      img: "/img/servicios/pedido/ped11.jpg",
       alt: "pedido",
     },
     {

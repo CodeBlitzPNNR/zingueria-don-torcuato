@@ -10,19 +10,19 @@ import {
 const Bandas = () => {
   const fotos = [
     {
-      img: "/img/servicios/bandas/ban1.JPG",
+      img: "/img/servicios/bandas/ban1.jpg",
       alt: "bandas",
     },
     {
-      img: "/img/servicios/bandas/ban2.JPG",
+      img: "/img/servicios/bandas/ban2.jpg",
       alt: "bandas",
     },
     {
-      img: "/img/servicios/bandas/ban3.JPG",
+      img: "/img/servicios/bandas/ban3.jpg",
       alt: "bandas",
     },
     {
-      img: "/img/servicios/bandas/ban4.JPG",
+      img: "/img/servicios/bandas/ban4.jpg",
       alt: "bandas",
     },
     {

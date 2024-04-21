@@ -8,19 +8,19 @@ const Extraccion = () => {
 
   const fotos = [
     {
-      img: "/img/servicios/extraccion/ext1.JPG",
+      img: "/img/servicios/extraccion/ext1.jpg",
       alt: "extraccion",
     },
     {
-      img: "/img/servicios/extraccion/ext2.JPG",
+      img: "/img/servicios/extraccion/ext2.jpg",
       alt: "extraccion",
     },
     {
-      img: "/img/servicios/extraccion/ext3.JPEG",
+      img: "/img/servicios/extraccion/ext3.jpeg",
       alt: "extraccion",
     },
     {
-      img: "/img/servicios/extraccion/ext4.JPEG",
+      img: "/img/servicios/extraccion/ext4.jpeg",
       alt: "extraccion",
     }    
   ];

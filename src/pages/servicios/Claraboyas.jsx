@@ -8,19 +8,19 @@ const Claraboyas = () => {
 
   const fotos = [
     {
-      img: "/img/servicios/claraboyas/cla1.JPG",
+      img: "/img/servicios/claraboyas/cla1.jpg",
       alt: "claraboyas",
     },
     {
-      img: "/img/servicios/claraboyas/cla2.JPG",
+      img: "/img/servicios/claraboyas/cla2.jpg",
       alt: "claraboyas",
     },
     {
-      img: "/img/servicios/claraboyas/cla3.JPG",
+      img: "/img/servicios/claraboyas/cla3.jpg",
       alt: "claraboyas",
     },
     {
-      img: "/img/servicios/claraboyas/cla4.JPG",
+      img: "/img/servicios/claraboyas/cla4.jpg",
       alt: "claraboyas",
     }    
   ];
