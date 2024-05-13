@@ -1,7 +1,6 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import Card from "../components/Card";
-import "./Home.css";
 import Logo1 from "/img/partners/LogoRefer1.png";
 import Logo2 from "/img/partners/LogoRefer2.png";
 import Logo3 from "/img/partners/LogoRefer3.svg";
@@ -89,14 +88,14 @@ export const Home = () => {
           {/* ABOUT SECTION */}
           <section
             id="about"
-            className="h-screen max-h-[800px] p-4 mt-4 bg-gradient-to-b from-slate-950 to-slate-700 shadow-2xl shadow-black"          >
-            <div className="container m-auto h-full flex flex-col justify-center">
-              <div className="p-4 max-h-[70%] h-full flex text-slate-300 ">
+            className="p-4 mt-4 bg-gradient-to-b from-slate-950 to-slate-700 shadow-2xl shadow-black"          >
+            <div className="container flex justify-center place-items-center m-auto gap-10">            
+              <div className="p-4 text-slate-300">                
                 <div className="flex flex-col max-w-2xl justify-center items-center px-4">
-                  <img
+                <img
                     src="./img/logoWhite.png"
                     alt="Logo"
-                    className="drop-shadow-2xl max-w-[300px]"
+                    className="drop-shadow-2xl w-72"
                   />
                   <h2 className="lg:text-2xl text-xl font-semibold text-white my-3">
                   ¿Quienes somos?
@@ -119,13 +118,13 @@ export const Home = () => {
                   zinguerias en general.
                 </p>      
                 </div>                
-                <div className="lg:flex justify-center p-2 bg-white shadow-lg rounded-md hidden">
+                {/* <div className="lg:flex justify-center p-2 bg-white shadow-lg rounded-md hidden">
                 <img
                   src={img7}
                   alt="Img Nosotros"
                   className="bg-black rounded-lg"
                 />
-              </div>              
+              </div>               */}
               </div>             
             </div>
           </section>

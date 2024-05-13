@@ -30,7 +30,7 @@ export default function Form() {
           </label>
           <div className="text-md font-semibold flex flex-col gap-1 text-slate-300">
             <a href="tel:+54 9 11-5308-8311">📞 11-5308-8311</a>
-            <a href="mailto:info@zingueriaadaro.com.ar">📧 info@zingueriaadaro.com.ar</a>
+            <a href="mailto:obras@zingueriadontorcuato.com">📧 obras@zingueriadontorcuato.com</a>
             <a href="https://maps.app.goo.gl/CRXirRQz7JU6ahxPA">📍 Av. Lib. Gral. San Martín 1695. Don Torcuato, Buenos. Aires.</a>
             <a href="#">⏰ Lun a Vie - 8:00hs a 13:00hs y 14:00hs a 17:00hs</a>
           </div>

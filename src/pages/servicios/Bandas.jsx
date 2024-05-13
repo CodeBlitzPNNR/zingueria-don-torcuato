@@ -32,7 +32,7 @@ const Bandas = () => {
     {
       img: "/img/servicios/bandas/ban6.JPEG",
       alt: "bandas",
-    }    
+    }              
   ];
 
   return (

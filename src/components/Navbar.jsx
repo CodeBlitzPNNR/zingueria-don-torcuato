@@ -5,10 +5,10 @@ import logo from '../../public/img/logoWhite.png';
 const Navbar = () => {
   return (
     <nav>
-      <div className="h-[200px] p-2 bgNav ">
+      <div className="h-[400px] p-2 bgNav ">
         <div className="container m-auto h-full flex items-center justify-center lg:justify-start">
         <Link to={'/'}>
-          <img src={logo} alt="Logo" className="drop-shadow-2xl w-[220px] lg:w-[280px]" />          
+          <img src={logo} alt="Logo" className="drop-shadow-2xl w-[320px] lg:w-[440px] p-12" />          
           </Link>
         </div>        
       </div>
