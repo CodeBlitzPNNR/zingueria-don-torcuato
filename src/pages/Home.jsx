@@ -28,7 +28,7 @@ export const Home = () => {
               text={
                 "El reemplazo de las chapas traslúcidas o comunmente llamadas plásticas, es un trabajo que se realiza..."
               }
-              title={"Chapas Translúcidas"}
+              title={"Chapas Traslúcidas"}
               img={img1}
               route={"/servicios/chapas"}
             />

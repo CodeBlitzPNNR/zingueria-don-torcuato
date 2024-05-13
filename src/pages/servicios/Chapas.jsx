@@ -84,7 +84,7 @@ const Chapas = () => {
                       Chapas traslúcidas
                     </h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                      El reemplazo de las chapas translúcidas o comúnmente
+                      El reemplazo de las chapas traslúcidas o comúnmente
                       llamadas plásticas, es un trabajo que se realiza luego de
                       un tiempo, cuando las chapas cumplen su ciclo de uso y ya
                       no permiten la entrada de luz, además de generar
@@ -136,7 +136,7 @@ const Chapas = () => {
                           <strong className="font-semibold text-gray-900">
                             Eficiencia energética.
                           </strong>{" "}
-                          Las chapas translúcidas permiten el paso de la luz natural, reduciendo la dependencia de la iluminación artificial y disminuyendo así el consumo de energía eléctrica.
+                          Las chapas traslúcidas permiten el paso de la luz natural, reduciendo la dependencia de la iluminación artificial y disminuyendo así el consumo de energía eléctrica.
                         </span>
                       </li>
                     </ul>
