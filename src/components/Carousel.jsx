@@ -3,59 +3,55 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
+import { CenterFocusStrong } from "@mui/icons-material";
 
 export default function SimpleSlider({ picData }) {
 
   var settings = {
-    dots: true,    
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    initialSlide: 0,
-    adaptiveHeight: true,
+    dots: true,
+    fade: true,
     infinite: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,          
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+    speed: 500,    
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    waitForAnimate: false
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,                    
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 2,          
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1
+    //     }
+    //   }
+    // ]
   }
 
   return (
-    <section>
-      <div className="slider-container bg-green-400 p-1">
+    <section className="p-8">      
       <Slider {...settings}>
-
+      
       {picData.map(({ img, alt }, index) => (
-        <div className="bg-red-500 p-1" key={index}>
+        <div className="p-2 flex" key={index}>
         <Zoom>          
-          <img className="aspect-square" src={img} alt={alt} />
+            <img className=" rounded-md max-h-[700px] m-auto" src={img} alt={alt} />          
         </Zoom>
       </div>
-      ))}         
-        
-      </Slider>
-      </div>
+      ))}             
+      </Slider>      
     </section>
   );
 }

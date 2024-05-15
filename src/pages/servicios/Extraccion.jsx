@@ -173,9 +173,9 @@ const Extraccion = () => {
             </div>
           </div>
         </section>     
-        <section className="bg-gradient-to-b from-slate-950 to-slate-500 h-[50dvh]" >
-          <div className="container m-auto px-4 bg-blue-400">
-            <h2 className=" font-semibold text-2xl text-white text-center">Galería</h2>
+        <section className="bg-gradient-to-b from-slate-950 to-slate-500">
+          <div className="container m-auto px-4">
+            <h2 className=" font-semibold text-4xl text-white text-center">Galería</h2>
             <Carousel picData={ fotos }/>
           </div>
         </section>
