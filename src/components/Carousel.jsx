@@ -7,8 +7,7 @@ import "react-medium-image-zoom/dist/styles.css";
 export default function SimpleSlider({ picData }) {
 
   var settings = {
-    dots: true,
-    infinite: false,
+    dots: true,    
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -20,8 +19,7 @@ export default function SimpleSlider({ picData }) {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
+          slidesToScroll: 3,          
           dots: true
         }
       },
@@ -45,13 +43,13 @@ export default function SimpleSlider({ picData }) {
 
   return (
     <section>
-      <div className="slider-container">
+      <div className="slider-container bg-green-400 p-1">
       <Slider {...settings}>
 
       {picData.map(({ img, alt }, index) => (
-        <div className="h-full" key={index}>
+        <div className="bg-red-500 p-1" key={index}>
         <Zoom>          
-          <img src={img} alt={alt} />
+          <img className="aspect-square" src={img} alt={alt} />
         </Zoom>
       </div>
       ))}         

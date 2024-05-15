@@ -11,43 +11,43 @@ const Bandas = () => {
   const fotos = [
     {
       img: "/img/servicios/bandas/ban1.jpg",
-      alt: "bandas",
+      alt: "bandas 1",
     },
     {
       img: "/img/servicios/bandas/ban2.jpg",
-      alt: "bandas",
+      alt: "bandas 2",
     },
     {
       img: "/img/servicios/bandas/ban3.jpg",
-      alt: "bandas",
+      alt: "bandas 3",
     },
     {
       img: "/img/servicios/bandas/ban4.jpg",
-      alt: "bandas",
+      alt: "bandas 4",
     },
     {
       img: "/img/servicios/bandas/ban5.JPEG",
-      alt: "bandas",
+      alt: "bandas 5",
     },
     {
       img: "/img/servicios/bandas/ban6.JPEG",
-      alt: "bandas",
+      alt: "bandas 6",
     },
     {
       img: "/img/servicios/bandas/ban7.jpg",
-      alt: "bandas",
+      alt: "bandas 7",
     },
     {
       img: "/img/servicios/bandas/ban8.jpg",
-      alt: "bandas",
+      alt: "bandas 8",
     },
     {
       img: "/img/servicios/bandas/ban9.jpg",
-      alt: "bandas",
+      alt: "bandas 9",
     },
     {
       img: "/img/servicios/bandas/ban10.jpg",
-      alt: "bandas",
+      alt: "bandas 10",
     }                 
   ];
 
@@ -174,10 +174,10 @@ const Bandas = () => {
             </div>
           </div>
         </section>
-        <section className="bg-gradient-to-b from-slate-950 to-slate-300 p-4 max-h-[1200px]" >
-          <div className="container m-auto p-2 my-5 rounded-3xl ">
-            <h2 className="text-3xl text-white text-center mb-4">Galería de imágenes</h2>
-            <Carousel picData={ fotos } />
+        <section className="bg-gradient-to-b from-slate-950 to-slate-500 h-[50dvh]" >
+          <div className="container m-auto px-4 bg-blue-400">
+            <h2 className=" font-semibold text-2xl text-white text-center">Galería</h2>
+            <Carousel picData={ fotos }/>
           </div>
         </section>
       </MainLayout>

@@ -9,39 +9,39 @@ const Chapas = () => {
   const fotos = [
     {
       img: "/img/servicios/chapas/cha1.jpg",
-      alt: "chapas",
+      alt: "chapas 1",
     },
     {
       img: "/img/servicios/chapas/cha2.jpg",
-      alt: "chapas",
+      alt: "chapas 2",
     },
     {
       img: "/img/servicios/chapas/cha3.jpg",
-      alt: "chapas",
+      alt: "chapas 3",
     },
     {
       img: "/img/servicios/chapas/cha4.jpg",
-      alt: "chapas",
+      alt: "chapas 4",
     },
     {
       img: "/img/servicios/chapas/cha5.jpg",
-      alt: "chapas",
+      alt: "chapas 5",
     },
     {
       img: "/img/servicios/chapas/cha6.jpg",
-      alt: "chapas",
+      alt: "chapas 6",
     },
     {
       img: "/img/servicios/chapas/cha7.JPG",
-      alt: "chapas",
+      alt: "chapas 7",
     },
     {
       img: "/img/servicios/chapas/cha8.jpg",
-      alt: "chapas",
+      alt: "chapas 8",
     },
     {
       img: "/img/servicios/chapas/cha9.jpg",
-      alt: "chapas",
+      alt: "chapas 9",
     }    
   ];      
 
@@ -154,11 +154,9 @@ const Chapas = () => {
             </div>
           </div>
         </section>
-        <section className="bg-white p-4">
-          <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
-            <h2 className=" font-bold text-3xl text-white text-center mb-2">
-              Galería
-            </h2>
+        <section className="bg-gradient-to-b from-slate-950 to-slate-500 h-[50dvh]" >
+          <div className="container m-auto px-4 bg-blue-400">
+            <h2 className=" font-semibold text-2xl text-white text-center">Galería</h2>
             <Carousel picData={ fotos }/>
           </div>
         </section>

@@ -9,47 +9,47 @@ const Extraccion = () => {
   const fotos = [
     {
       img: "/img/servicios/extraccion/ext1.jpg",
-      alt: "extraccion",
+      alt: "extraccion 1",
     },
     {
       img: "/img/servicios/extraccion/ext2.jpg",
-      alt: "extraccion",
+      alt: "extraccion 2",
     },
     {
       img: "/img/servicios/extraccion/ext3.jpeg",
-      alt: "extraccion",
+      alt: "extraccion 3",
     },
     {
       img: "/img/servicios/extraccion/ext4.jpeg",
-      alt: "extraccion",
+      alt: "extraccion 4",
     },
     {
       img: "/img/servicios/extraccion/ext5.jpg",
-      alt: "extraccion",
+      alt: "extraccion 5",
     },
     {
       img: "/img/servicios/extraccion/ext6.jpg",
-      alt: "extraccion",
+      alt: "extraccion 6",
     },
     {
       img: "/img/servicios/extraccion/ext7.jpg",
-      alt: "extraccion",
+      alt: "extraccion 7",
     },
     {
       img: "/img/servicios/extraccion/ext8.jpg",
-      alt: "extraccion",
+      alt: "extraccion 8",
     },
     {
       img: "/img/servicios/extraccion/ext9.jpg",
-      alt: "extraccion",
+      alt: "extraccion 9",
     },
     {
       img: "/img/servicios/extraccion/ext10.jpg",
-      alt: "extraccion",
+      alt: "extraccion 10",
     },
     {
       img: "/img/servicios/extraccion/ext11.jpg",
-      alt: "extraccion",
+      alt: "extraccion 11",
     } 
   ];
 
@@ -173,9 +173,9 @@ const Extraccion = () => {
             </div>
           </div>
         </section>     
-        <section className="bg-white p-4" >
-          <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
-            <h2 className=" font-bold text-3xl text-white text-center mb-2">Galería</h2>
+        <section className="bg-gradient-to-b from-slate-950 to-slate-500 h-[50dvh]" >
+          <div className="container m-auto px-4 bg-blue-400">
+            <h2 className=" font-semibold text-2xl text-white text-center">Galería</h2>
             <Carousel picData={ fotos }/>
           </div>
         </section>

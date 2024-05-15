@@ -9,103 +9,103 @@ const Pedido = () => {
   const fotos = [
     {
       img: "/img/servicios/pedido/ped1.jpg",
-      alt: "pedido",
+      alt: "pedido 1",
     },
     {
-      img: "/img/servicios/pedido/ped2.JPEG",
-      alt: "pedido",
+      img: "/img/servicios/pedido/ped2.jpeg",
+      alt: "pedido 2",
     },
     {
       img: "/img/servicios/pedido/ped3.JPEG",
-      alt: "pedido",
+      alt: "pedido 3",
     },
     {
       img: "/img/servicios/pedido/ped4.JPEG",
-      alt: "pedido",
+      alt: "pedido 4",
     },
     {
       img: "/img/servicios/pedido/ped5.jpg",
-      alt: "pedido",
+      alt: "pedido 5",
     },
     {
       img: "/img/servicios/pedido/ped6.jpg",
-      alt: "pedido",
+      alt: "pedido 6",
     },
     {
       img: "/img/servicios/pedido/ped7.jpg",
-      alt: "pedido",
+      alt: "pedido 7",
     },
     {
       img: "/img/servicios/pedido/ped8.jpg",
-      alt: "pedido",
+      alt: "pedido 8",
     },
     {
       img: "/img/servicios/pedido/ped9.jpg",
-      alt: "pedido",
+      alt: "pedido 9",
     },
     {
       img: "/img/servicios/pedido/ped10.jpg",
-      alt: "pedido",
+      alt: "pedido 10",
     },
     {
       img: "/img/servicios/pedido/ped11.jpg",
-      alt: "pedido",
+      alt: "pedido 11",
     },
     {
       img: "/img/servicios/pedido/ped12.JPEG",
-      alt: "pedido",
+      alt: "pedido 12",
     },
     {
       img: "/img/servicios/pedido/ped13.JPEG",
-      alt: "pedido",
+      alt: "pedido 13",
     },
     {
       img: "/img/servicios/pedido/ped14.jpg",
-      alt: "pedido",
+      alt: "pedido 14",
     },
     {
       img: "/img/servicios/pedido/ped15.jpg",
-      alt: "pedido",
+      alt: "pedido 15",
     },
     {
       img: "/img/servicios/pedido/ped16.jpg",
-      alt: "pedido",
+      alt: "pedido 16",
     },
     {
       img: "/img/servicios/pedido/ped17.jpg",
-      alt: "pedido",
+      alt: "pedido 17",
     },
     {
       img: "/img/servicios/pedido/ped18.jpg",
-      alt: "pedido",
+      alt: "pedido 18",
     },
     {
       img: "/img/servicios/pedido/ped19.jpg",
-      alt: "pedido",
+      alt: "pedido 19",
     },
     {
       img: "/img/servicios/pedido/ped20.JPEG",
-      alt: "pedido",
+      alt: "pedido 20",
     },
     {
       img: "/img/servicios/pedido/ped21.jpg",
-      alt: "pedido",
+      alt: "pedido 21",
     },
     {
       img: "/img/servicios/pedido/ped22.jpg",
-      alt: "pedido",
+      alt: "pedido 22",
     },
     {
       img: "/img/servicios/pedido/ped23.JPEG",
-      alt: "pedido",
+      alt: "pedido 23",
     },
     {
       img: "/img/servicios/pedido/ped24.JPEG",
-      alt: "pedido",
+      alt: "pedido 24",
     },
     {
       img: "/img/servicios/pedido/ped25.JPEG",
-      alt: "pedido",
+      alt: "pedido 25",
     }    
   ];
 
@@ -269,9 +269,9 @@ const Pedido = () => {
             </div>
           </div>
         </section>   
-        <section className="bg-white p-4" >
-          <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
-            <h2 className=" font-bold text-3xl text-white text-center mb-2">Galería</h2>
+        <section className="bg-gradient-to-b from-slate-950 to-slate-500 h-[50dvh]" >
+          <div className="container m-auto px-4 bg-blue-400">
+            <h2 className=" font-semibold text-2xl text-white text-center">Galería</h2>
             <Carousel picData={ fotos }/>
           </div>
         </section>

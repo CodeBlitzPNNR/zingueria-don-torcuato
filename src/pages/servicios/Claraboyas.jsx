@@ -9,19 +9,19 @@ const Claraboyas = () => {
   const fotos = [
     {
       img: "/img/servicios/claraboyas/cla1.jpg",
-      alt: "claraboyas",
+      alt: "claraboyas 1",
     },
     {
       img: "/img/servicios/claraboyas/cla2.jpg",
-      alt: "claraboyas",
+      alt: "claraboyas 2",
     },
     {
       img: "/img/servicios/claraboyas/cla3.jpg",
-      alt: "claraboyas",
+      alt: "claraboyas 3",
     },
     {
       img: "/img/servicios/claraboyas/cla4.jpg",
-      alt: "claraboyas",
+      alt: "claraboyas 4",
     }    
   ];
 
@@ -136,9 +136,9 @@ const Claraboyas = () => {
             </div>
           </div>
         </section>    
-        <section className="bg-white p-4" >
-          <div className="container m-auto bg-gradient-to-b from-slate-950 to-slate-500 p-10 max-w-[1024px] rounded-3xl">
-            <h2 className=" font-bold text-3xl text-white text-center mb-2">Galería</h2>
+        <section className="bg-gradient-to-b from-slate-950 to-slate-500 h-[50dvh]" >
+          <div className="container m-auto px-4 bg-blue-400">
+            <h2 className=" font-semibold text-2xl text-white text-center">Galería</h2>
             <Carousel picData={ fotos }/>
           </div>
         </section>
