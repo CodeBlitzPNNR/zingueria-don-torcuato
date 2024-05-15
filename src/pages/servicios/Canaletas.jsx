@@ -47,7 +47,34 @@ const Canaletas = () => {
       img: "/img/servicios/canaletas/can10.JPG",
       alt: "Canaletas",
     },
-    
+    {
+      img: "/img/servicios/canaletas/can11.jpg",
+      alt: "Canaletas",
+    },
+    {
+      img: "/img/servicios/canaletas/can12.jpg",
+      alt: "Canaletas",
+    },
+    {
+      img: "/img/servicios/canaletas/can13.jpg",
+      alt: "Canaletas",
+    },
+    {
+      img: "/img/servicios/canaletas/can14.jpg",
+      alt: "Canaletas",
+    },
+    {
+      img: "/img/servicios/canaletas/can15.JPEG",
+      alt: "Canaletas",
+    },
+    {
+      img: "/img/servicios/canaletas/can16.jpg",
+      alt: "Canaletas",
+    },
+    {
+      img: "/img/servicios/canaletas/can17.jpg",
+      alt: "Canaletas",
+    }  
   ];
 
   return (

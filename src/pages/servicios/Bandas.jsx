@@ -32,7 +32,23 @@ const Bandas = () => {
     {
       img: "/img/servicios/bandas/ban6.JPEG",
       alt: "bandas",
-    }              
+    },
+    {
+      img: "/img/servicios/bandas/ban7.jpg",
+      alt: "bandas",
+    },
+    {
+      img: "/img/servicios/bandas/ban8.jpg",
+      alt: "bandas",
+    },
+    {
+      img: "/img/servicios/bandas/ban9.jpg",
+      alt: "bandas",
+    },
+    {
+      img: "/img/servicios/bandas/ban10.jpg",
+      alt: "bandas",
+    }                 
   ];
 
   return (

@@ -59,7 +59,54 @@ const Pedido = () => {
       img: "/img/servicios/pedido/ped13.JPEG",
       alt: "pedido",
     },
-    
+    {
+      img: "/img/servicios/pedido/ped14.jpg",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped15.jpg",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped16.jpg",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped17.jpg",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped18.jpg",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped19.jpg",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped20.JPEG",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped21.jpg",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped22.jpg",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped23.JPEG",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped24.JPEG",
+      alt: "pedido",
+    },
+    {
+      img: "/img/servicios/pedido/ped25.JPEG",
+      alt: "pedido",
+    }    
   ];
 
   return (

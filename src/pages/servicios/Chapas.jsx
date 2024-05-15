@@ -34,6 +34,14 @@ const Chapas = () => {
     {
       img: "/img/servicios/chapas/cha7.JPG",
       alt: "chapas",
+    },
+    {
+      img: "/img/servicios/chapas/cha8.jpg",
+      alt: "chapas",
+    },
+    {
+      img: "/img/servicios/chapas/cha9.jpg",
+      alt: "chapas",
     }    
   ];      
 

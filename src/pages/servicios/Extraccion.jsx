@@ -22,7 +22,35 @@ const Extraccion = () => {
     {
       img: "/img/servicios/extraccion/ext4.jpeg",
       alt: "extraccion",
-    }    
+    },
+    {
+      img: "/img/servicios/extraccion/ext5.jpg",
+      alt: "extraccion",
+    },
+    {
+      img: "/img/servicios/extraccion/ext6.jpg",
+      alt: "extraccion",
+    },
+    {
+      img: "/img/servicios/extraccion/ext7.jpg",
+      alt: "extraccion",
+    },
+    {
+      img: "/img/servicios/extraccion/ext8.jpg",
+      alt: "extraccion",
+    },
+    {
+      img: "/img/servicios/extraccion/ext9.jpg",
+      alt: "extraccion",
+    },
+    {
+      img: "/img/servicios/extraccion/ext10.jpg",
+      alt: "extraccion",
+    },
+    {
+      img: "/img/servicios/extraccion/ext11.jpg",
+      alt: "extraccion",
+    } 
   ];
 
   return (

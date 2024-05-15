@@ -14,7 +14,7 @@ const Footer = () => {
               <Link className="cursor-pointer hover:text-sky-300" to={'/contacto'}>Contacto</Link>
             </li>
             <li>
-              <a className="cursor-pointer hover:text-sky-300" href="/">Acceso a sistema</a>
+              <a className="cursor-pointer hover:text-sky-300" href="https://ztorcuato-dashboard.vercel.app">Acceso a sistema</a>
             </li>
           </ul>
           <ul className="flex flex-col gap-2 p-3">
