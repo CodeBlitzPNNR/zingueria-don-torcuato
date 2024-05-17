@@ -1,6 +1,10 @@
 import { useForm } from "react-hook-form";
-import "./form.css";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { toastTrigger } from "../helpers";
 import contactImg from "/img/contact.jpg";
+import "./form.css";
+
 
 export default function Form() {
   const {
@@ -10,15 +14,25 @@ export default function Form() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data)
-    reset();
+  const formRef = useRef()
+
+  const onSubmit = () => {        
+    emailjs.sendForm('service_pg4co8c','template_bei7f32', formRef.current, {
+      publicKey: 'pBoTgqHCZk4hAQemu'
+    }).then(() => {
+      toastTrigger('success', 'Mensaje enviado, responderemos lo antes posible.')
+      reset()
+    },(error) => {
+      toastTrigger('error', 'Ocurrió un error enviando el mensaje, intentelo de nuevo mas tarde.')
+      reset()
+      console.log(error)
+    })    
   };
   
 
   return (
     <div className="form-container m-auto">
-      <form className="form" onSubmit={handleSubmit(onSubmit)}>
+      <form ref={formRef} className="form" onSubmit={handleSubmit(onSubmit)}>
         <img
           src={contactImg}
           alt="Imagen de Contact"
