@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Carousel from "../../components/Carousel";
 import MainLayout from "../../layout/MainLayout";
@@ -102,6 +103,9 @@ const Chapas = () => {
                       no permiten la entrada de luz, además de generar
                       filtraciones.
                     </p>
+                  </div>
+                  <div className="flex items-center pt-4">
+                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
                   </div>
                 </div>
               </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 import MainLayout from "../../layout/MainLayout";
 import Galeria from '../../components/Galeria'
 import Carousel from "../../components/Carousel";
@@ -165,6 +166,9 @@ const Pedido = () => {
                       estándares de calidad y satisfacer las necesidades únicas
                       de nuestros clientes.
                     </p>
+                  </div>
+                  <div className="flex items-center pt-4">
+                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
                   </div>
                 </div>
               </div>

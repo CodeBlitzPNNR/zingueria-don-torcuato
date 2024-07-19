@@ -1,11 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 import MainLayout from "../../layout/MainLayout";
 import Carousel from "../../components/Carousel";
 import {
   CloudArrowDownIcon,
   LockClosedIcon,  
 } from "@heroicons/react/20/solid";
+
 
 
 const Bandas = () => {
@@ -110,6 +112,9 @@ const Bandas = () => {
                       temperatura, si se embute en los muros, estos con el
                       tiempo se rajan y producen filtraciones.
                     </p>
+                  </div>
+                  <div className="flex items-center pt-4">
+                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
                   </div>
                 </div>
               </div>

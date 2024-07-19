@@ -17,8 +17,7 @@ const Navbar = () => {
         <ul className="flex font-semibold text-white gap-3 lg:gap-6 text-sm md:text-md items-center mr-0 lg:mr-20">
         <Link to={'/'}><li className=" hover:bg-slate-700 rounded bg-slate-600 py-1 px-2 cursor-pointer shadow-md shadow-black  ">Inicio</li></Link>
         <a href="/#about"><li className="hover:bg-slate-700 rounded bg-slate-600 py-1 px-2 cursor-pointer shadow-md shadow-black">Empresa</li></a>            
-            <li ><Dropdown/></li>
-            {/* <Link to={'/obras-realizadas'}><li className="hover:bg-slate-700 rounded bg-slate-600 py-1 px-2 cursor-pointer shadow-md shadow-black">Obras realizadas</li></Link> */}
+            <li ><Dropdown/></li>            
             <Link to={'/contacto'}><li className="hover:bg-slate-700 rounded bg-slate-600 py-1 px-2 cursor-pointer shadow-md shadow-black">Contacto</li></Link>
           </ul>          
         </div>

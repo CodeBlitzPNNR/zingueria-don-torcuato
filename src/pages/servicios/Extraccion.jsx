@@ -1,7 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import MainLayout from "../../layout/MainLayout";
-import Galeria from '../../components/Galeria'
 import Carousel from "../../components/Carousel";
 import { ArrowPathRoundedSquareIcon, CloudIcon, SunIcon, WalletIcon } from "@heroicons/react/20/solid";
 
@@ -110,6 +110,9 @@ const Extraccion = () => {
                       la acumulación de contaminantes que pueden afectar la
                       salud y el confort de los ocupantes.
                     </p>
+                  </div>
+                  <div className="flex items-center pt-4">
+                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
                   </div>
                 </div>
               </div>
