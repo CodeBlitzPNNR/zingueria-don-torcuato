@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import MainLayout from "../../layout/MainLayout";
 import Galeria from '../../components/Galeria'
 import Carousel from "../../components/Carousel";
@@ -27,6 +28,10 @@ const Claraboyas = () => {
 
   return (
     <main className="w-screen">
+      <Helmet>
+        <title>Claraboyas para techos | Zinguería Don Torcuato</title>
+        <meta name="description" content="En Zinguería Don Torcuato, te ofrecemos claraboyas resistentes, diseñadas para aislar, proteger y maximizar la luz natural en tus espacios." />
+      </Helmet>
       <MainLayout>
         <section className="">
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">

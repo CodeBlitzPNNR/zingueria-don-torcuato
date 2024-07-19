@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import MainLayout from "../../layout/MainLayout";
 import Carousel from "../../components/Carousel";
 import {
@@ -53,6 +54,10 @@ const Bandas = () => {
 
   return (
     <main className="w-screen">
+       <Helmet>
+        <title>Bandas perimetrales para techos | Zinguería Don Torcuato</title>
+        <meta name="description" content="En Zinguería Don Torcuato ofrecemos bandas perimetrales que evitan filtraciones y corrosiones, permitiendo la dilatación entre techo y muros." />
+      </Helmet>
       <MainLayout>
         <section>
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0 container m-auto w-[100%]">

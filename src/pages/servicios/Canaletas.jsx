@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import MainLayout from "../../layout/MainLayout";
 import Galeria from '../../components/Galeria'
 import Carousel from "../../components/Carousel";
@@ -79,6 +80,10 @@ const Canaletas = () => {
 
   return (
     <main className="w-screen">
+      <Helmet>
+        <title>Canaletas para techos | Zinguería Don Torcuato</title>
+        <meta name="description" content="En Zinguería Don Torcuato, ofrecemos canaletas de alta calidad para todo tipo de proyectos, asegurando eficiencia y durabilidad en la evacuación de agua." />
+      </Helmet>
       <MainLayout>
         <section className="">
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">

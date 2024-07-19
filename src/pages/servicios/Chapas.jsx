@@ -1,5 +1,5 @@
 import React from "react";
-import Galeria from "../../components/Galeria";
+import { Helmet } from "react-helmet";
 import Carousel from "../../components/Carousel";
 import MainLayout from "../../layout/MainLayout";
 import { SunIcon, WalletIcon } from "@heroicons/react/20/solid";
@@ -47,6 +47,10 @@ const Chapas = () => {
 
   return (
     <main className="w-screen">
+      <Helmet>
+        <title>Chapas traslúcidas para techos | Zinguería Don Torcuato</title>
+        <meta name="description" content="En Zinguería Don Torcuato renovamos las chapas traslúcidas de tu espacio para mejorar luz y evitar filtraciones, mediante materiales modernos y duraderos." />
+      </Helmet>
       <MainLayout>
         <section className="">
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">

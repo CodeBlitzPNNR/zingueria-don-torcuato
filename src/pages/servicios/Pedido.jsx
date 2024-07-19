@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import MainLayout from "../../layout/MainLayout";
 import Galeria from '../../components/Galeria'
 import Carousel from "../../components/Carousel";
@@ -110,7 +111,11 @@ const Pedido = () => {
   ];
 
   return (
-    <main className="w-screen">
+    <main className="w-screen">      
+      <Helmet>
+        <title>Trabajos de Zinguería a pedido | Zinguería Don Torcuato</title>
+        <meta name="description" content="En Zinguería Don Torcuato realizamos trabajos de calidad a pedido con chapa galvanizada, desde bateas y embudos hasta cúpulas y decoraciones." />
+      </Helmet>
       <MainLayout>
         <section className="">
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import MainLayout from "../../layout/MainLayout";
 import Galeria from '../../components/Galeria'
 import Carousel from "../../components/Carousel";
@@ -55,6 +56,10 @@ const Extraccion = () => {
 
   return (
     <main className="w-screen">
+      <Helmet>
+        <title>Extracción de aire para techos | Zinguería Don Torcuato</title>
+        <meta name="description" content="Mejorá la calidad del aire de tus espacios con la extracción para techos de Zinguería Don Torcuato. Extrae humos, olores desagradables y limpia el aire." />
+      </Helmet>
       <MainLayout>
         <section className="">
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
