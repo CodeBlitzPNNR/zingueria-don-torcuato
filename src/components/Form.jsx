@@ -1,10 +1,9 @@
 import { useForm } from "react-hook-form";
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { toastTrigger } from "../helpers";
 import contactImg from "/img/contact.jpg";
 import "./form.css";
-
 
 export default function Form() {
   const {
@@ -14,21 +13,32 @@ export default function Form() {
     formState: { errors },
   } = useForm();
 
-  const formRef = useRef()
+  const formRef = useRef();
 
-  const onSubmit = () => {        
-    emailjs.sendForm('service_pg4co8c','template_bei7f32', formRef.current, {
-      publicKey: 'pBoTgqHCZk4hAQemu'
-    }).then(() => {
-      toastTrigger('success', 'Mensaje enviado, responderemos lo antes posible.')
-      reset()
-    },(error) => {
-      toastTrigger('error', 'Ocurrió un error enviando el mensaje, intentelo de nuevo mas tarde.')
-      reset()
-      console.log(error)
-    })    
+  const onSubmit = () => {
+    emailjs
+      .sendForm("service_pg4co8c", "template_bei7f32", formRef.current, {
+        publicKey: "pBoTgqHCZk4hAQemu",
+      })
+      .then(
+        () => {
+          console.log("Form", formRef.current)
+          toastTrigger(
+            "success",
+            "Mensaje enviado, responderemos lo antes posible."
+          );
+          reset();
+        },
+        (error) => {
+          toastTrigger(
+            "error",
+            "Ocurrió un error enviando el mensaje, intentelo de nuevo mas tarde."
+          );
+          reset();
+          console.log(error);
+        }
+      );      
   };
-  
 
   return (
     <div className="form-container m-auto">
@@ -44,27 +54,49 @@ export default function Form() {
           </label>
           <div className="text-md font-semibold flex flex-col gap-1 text-slate-300">
             <a href="tel:+54 9 11-5308-8311">📞 11-5308-8311</a>
-            <a href="mailto:obras@zingueriadontorcuato.com">📧 obras@zingueriadontorcuato.com</a>
-            <a href="https://maps.app.goo.gl/CRXirRQz7JU6ahxPA">📍 Av. Lib. Gral. San Martín 1695. Don Torcuato, Buenos. Aires.</a>
+            <a href="mailto:obras@zingueriadontorcuato.com">
+              📧 obras@zingueriadontorcuato.com
+            </a>
+            <a href="https://maps.app.goo.gl/CRXirRQz7JU6ahxPA">
+              📍 Av. Lib. Gral. San Martín 1695. Don Torcuato, Buenos. Aires.
+            </a>
             <a href="#">⏰ Lun a Vie - 8:00hs a 13:00hs y 14:00hs a 17:00hs</a>
           </div>
+
           <div className="form-group">
             <label for="name">Nombre</label>
-            <input
-              required=""
-              name="email"
-              id="email"
+            <input              
+              name="nombre"
+              id="nombre"
               type="text"
               {...register("name", { required: true })}
             />
           </div>
+
           <div className="form-group">
             <label for="mail">Email</label>
             {/* include validation with required or other standard HTML validation rules */}
-            <input {...register("mail", { required: true })} />
+            <input {...register("mail", { required: true })} type="mail" />
             {/* errors will return when field validation fails  */}
             {errors.mail && <span>Este campo es obligatorio.</span>}
           </div>
+
+          <div className="form-group">
+            <label for="text">Empresa</label>
+            {/* include validation with required or other standard HTML validation rules */}
+            <input {...register("empresa")} type="text" />
+          </div>
+
+          <div className="form-group">
+            <label for="negocio">Tipo de negocio</label>
+            <select {...register("negocio")} name="negocio" id="neg">
+              <option value="fabrica">Fábrica</option>
+              <option value="deposito">Depósito</option>
+              <option value="comercio">Comercio</option>
+              <option value="otro">Otro</option>              
+            </select>            
+          </div>
+
           <div className="form-group">
             <label for="textarea">¿Cómo podemos ayudarte?</label>
             <textarea

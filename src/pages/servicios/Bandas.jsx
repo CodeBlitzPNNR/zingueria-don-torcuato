@@ -122,7 +122,7 @@ const Bandas = () => {
                 <img
                   className="w-[48rem] max-w-[100%] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]"
                   src="/img/sections/bandas.jpg"
-                  alt=""
+                  alt="Imagen de bandas perimetrales instaladas en un techo, utilizadas para realizar la junta de dilatación entre el techo y los muros de carga."
                 />
               </div>
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">

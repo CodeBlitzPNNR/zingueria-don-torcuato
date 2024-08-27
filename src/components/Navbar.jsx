@@ -1,14 +1,16 @@
 import { Link } from "react-router-dom";
-import Dropdown from '../components/Dropdown'
+import Dropdown from '../components/Dropdown';
 import logo from '../../public/img/logoWhite.png';
+
 
 const Navbar = () => {
   return (
     <nav>
-      <div className="h-[400px] p-2 bgNav ">
-        <div className="container m-auto h-full flex items-center justify-center lg:justify-start">
+      <div className="h-[400px] p-2 bgNav relative">
+        <h1 className=" font-roboto text-white font-bold absolute left-[50%] top-[50%] text-7xl text-center w-full pt-4 pb-8 bg-opacity-70 bg-black translate-x-[-50%] translate-y-[-50%]">Zinguería para empresas</h1>
+        <div className="container m-auto h-full px-14 flex items-center justify-center lg:justify-end lg:items-end">
         <Link to={'/'}>
-          <img src={logo} alt="Logo" className="drop-shadow-2xl w-[320px] lg:w-[440px] p-12" />          
+          <img src={logo} alt="Logo" className="drop-shadow-2xl w-[180px] lg:w-[220px] p-1" />          
           </Link>
         </div>        
       </div>

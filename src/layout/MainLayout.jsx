@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
-import WpWidget from "../components/WpWidget"
 import Banner from "../components/Banner"
 
 const MainLayout = ({ children }) => {
@@ -11,7 +10,6 @@ const MainLayout = ({ children }) => {
 
             { children }
           
-          <WpWidget/>         
           <Footer /> 
     </main>
   )

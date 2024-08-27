@@ -146,7 +146,7 @@ const Canaletas = () => {
                 <img
                   className="w-[48rem] max-w-[100%] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]"
                   src="/img/sections/canaletas.jpg"
-                  alt=""
+                  alt="Imagen de canaletas de techo instaladas junto a un borde elevado, utilizadas para el drenaje del agua de lluvia."
                 />
               </div>
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
