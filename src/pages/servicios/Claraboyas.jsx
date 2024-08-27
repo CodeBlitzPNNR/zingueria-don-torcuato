@@ -2,12 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import MainLayout from "../../layout/MainLayout";
-import Galeria from '../../components/Galeria'
+import Galeria from "../../components/Galeria";
 import Carousel from "../../components/Carousel";
-import { EyeSlashIcon, LightBulbIcon, SunIcon, WalletIcon } from "@heroicons/react/20/solid";
+import {
+  EyeSlashIcon,
+  LightBulbIcon,
+  SunIcon,
+  WalletIcon,
+} from "@heroicons/react/20/solid";
 
 const Claraboyas = () => {
-
   const fotos = [
     {
       img: "/img/servicios/claraboyas/cla1.jpg",
@@ -24,14 +28,17 @@ const Claraboyas = () => {
     {
       img: "/img/servicios/claraboyas/cla4.jpg",
       alt: "claraboyas 4",
-    }    
+    },
   ];
 
   return (
     <main className="w-screen">
       <Helmet>
         <title>Claraboyas para techos | Zinguería Don Torcuato</title>
-        <meta name="description" content="En Zinguería Don Torcuato, te ofrecemos claraboyas resistentes, diseñadas para aislar, proteger y maximizar la luz natural en tus espacios." />
+        <meta
+          name="description"
+          content="En Zinguería Don Torcuato, te ofrecemos claraboyas resistentes, diseñadas para aislar, proteger y maximizar la luz natural en tus espacios."
+        />
       </Helmet>
       <MainLayout>
         <section className="">
@@ -75,17 +82,25 @@ const Claraboyas = () => {
                       Zinguería Don Torcuato
                     </p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                      Claraboyas o Ventanas de techo
+                      Claraboyas o Ventanas de techo para empresas
                     </h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                      Las claraboyas o ventanas de techo se pueden instalar
-                      sobre distintos tipos de techados. Ej. Techos de teja
-                      francesa, sobre teja colonial, teja portuguesa pizarra,
-                      losa etc.
+                      Las claraboyas o ventanas de techo son ideales para su
+                      instalación en una variedad de techados en instalaciones
+                      empresariales, como techos de teja francesa, teja
+                      colonial, teja portuguesa, pizarra, losa, entre otros.
+                      Estas soluciones permiten mejorar la iluminación natural
+                      en los espacios de trabajo, optimizando el ambiente
+                      interior de las empresas.
                     </p>
                   </div>
                   <div className="flex items-center pt-4">
-                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
+                    <Link
+                      to={"/contacto"}
+                      className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white"
+                    >
+                      Contacto
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -144,11 +159,13 @@ const Claraboyas = () => {
               </div>
             </div>
           </div>
-        </section>    
+        </section>
         <section className="bg-gradient-to-b from-slate-950 to-slate-500">
           <div className="container m-auto px-4">
-            <h2 className=" font-semibold text-4xl text-white text-center">Galería</h2>
-            <Carousel picData={ fotos }/>
+            <h2 className=" font-semibold text-4xl text-white text-center">
+              Galería
+            </h2>
+            <Carousel picData={fotos} />
           </div>
         </section>
       </MainLayout>

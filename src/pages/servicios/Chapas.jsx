@@ -6,7 +6,6 @@ import MainLayout from "../../layout/MainLayout";
 import { SunIcon, WalletIcon } from "@heroicons/react/20/solid";
 
 const Chapas = () => {
-
   const fotos = [
     {
       img: "/img/servicios/chapas/cha1.jpg",
@@ -43,14 +42,17 @@ const Chapas = () => {
     {
       img: "/img/servicios/chapas/cha9.jpg",
       alt: "chapas 9",
-    }    
-  ];      
+    },
+  ];
 
   return (
     <main className="w-screen">
       <Helmet>
         <title>Chapas traslúcidas para techos | Zinguería Don Torcuato</title>
-        <meta name="description" content="En Zinguería Don Torcuato renovamos las chapas traslúcidas de tu espacio para mejorar luz y evitar filtraciones, mediante materiales modernos y duraderos." />
+        <meta
+          name="description"
+          content="En Zinguería Don Torcuato renovamos las chapas traslúcidas de tu espacio para mejorar luz y evitar filtraciones, mediante materiales modernos y duraderos."
+        />
       </Helmet>
       <MainLayout>
         <section className="">
@@ -94,18 +96,25 @@ const Chapas = () => {
                       Zinguería Don Torcuato
                     </p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                      Chapas traslúcidas
+                      Chapas traslúcidas para empresas
                     </h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                      El reemplazo de las chapas traslúcidas o comúnmente
-                      llamadas plásticas, es un trabajo que se realiza luego de
-                      un tiempo, cuando las chapas cumplen su ciclo de uso y ya
-                      no permiten la entrada de luz, además de generar
-                      filtraciones.
+                      El reemplazo de chapas translúcidas, comúnmente conocidas
+                      como plásticas, es un trabajo esencial para empresas que
+                      requieren mantener un ambiente de trabajo bien iluminado y
+                      libre de filtraciones. Este proceso se realiza cuando las
+                      chapas han cumplido su ciclo de uso, afectando la entrada
+                      de luz natural y comprometiendo la infraestructura de la
+                      instalación.
                     </p>
                   </div>
                   <div className="flex items-center pt-4">
-                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
+                    <Link
+                      to={"/contacto"}
+                      className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white"
+                    >
+                      Contacto
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -152,7 +161,10 @@ const Chapas = () => {
                           <strong className="font-semibold text-gray-900">
                             Eficiencia energética.
                           </strong>{" "}
-                          Las chapas traslúcidas permiten el paso de la luz natural, reduciendo la dependencia de la iluminación artificial y disminuyendo así el consumo de energía eléctrica.
+                          Las chapas traslúcidas permiten el paso de la luz
+                          natural, reduciendo la dependencia de la iluminación
+                          artificial y disminuyendo así el consumo de energía
+                          eléctrica.
                         </span>
                       </li>
                     </ul>
@@ -164,8 +176,10 @@ const Chapas = () => {
         </section>
         <section className="bg-gradient-to-b from-slate-950 to-slate-500">
           <div className="container m-auto px-4">
-            <h2 className=" font-semibold text-4xl text-white text-center">Galería</h2>
-            <Carousel picData={ fotos }/>
+            <h2 className=" font-semibold text-4xl text-white text-center">
+              Galería
+            </h2>
+            <Carousel picData={fotos} />
           </div>
         </section>
       </MainLayout>

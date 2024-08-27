@@ -3,12 +3,7 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import MainLayout from "../../layout/MainLayout";
 import Carousel from "../../components/Carousel";
-import {
-  CloudArrowDownIcon,
-  LockClosedIcon,  
-} from "@heroicons/react/20/solid";
-
-
+import { CloudArrowDownIcon, LockClosedIcon } from "@heroicons/react/20/solid";
 
 const Bandas = () => {
   const fotos = [
@@ -51,14 +46,17 @@ const Bandas = () => {
     {
       img: "/img/servicios/bandas/ban10.jpg",
       alt: "bandas 10",
-    }                 
+    },
   ];
 
   return (
     <main className="w-screen">
-       <Helmet>
+      <Helmet>
         <title>Bandas perimetrales para techos | Zinguería Don Torcuato</title>
-        <meta name="description" content="En Zinguería Don Torcuato ofrecemos bandas perimetrales que evitan filtraciones y corrosiones, permitiendo la dilatación entre techo y muros." />
+        <meta
+          name="description"
+          content="En Zinguería Don Torcuato ofrecemos bandas perimetrales que evitan filtraciones y corrosiones, permitiendo la dilatación entre techo y muros."
+        />
       </Helmet>
       <MainLayout>
         <section>
@@ -102,19 +100,24 @@ const Bandas = () => {
                       Zinguería Don Torcuato
                     </p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                      Bandas perimetrales y cantoneras
+                      Bandas perimetrales y cantoneras para empresas
                     </h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                      Las bandas perimetrales se utilizan para realizar la
-                      dilatación entre el techo y los muros de carga.
-                      <br />
-                      La chapa es un material que sufre diferencias de
-                      temperatura, si se embute en los muros, estos con el
-                      tiempo se rajan y producen filtraciones.
+                      Su función principal es mejorar la circulación del aire en
+                      entornos industriales o comerciales, eliminar olores no
+                      deseados, reducir la humedad y prevenir la acumulación de
+                      contaminantes que pueden afectar la salud y el confort de
+                      los ocupantes, garantizando así un ambiente de trabajo más
+                      seguro y eficiente para las empresas.                                            
                     </p>
                   </div>
                   <div className="flex items-center pt-4">
-                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
+                    <Link
+                      to={"/contacto"}
+                      className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white"
+                    >
+                      Contacto
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -186,8 +189,10 @@ const Bandas = () => {
         </section>
         <section className="bg-gradient-to-b from-slate-950 to-slate-500">
           <div className="container m-auto px-4">
-            <h2 className=" font-semibold text-4xl text-white text-center">Galería</h2>
-            <Carousel picData={ fotos }/>
+            <h2 className=" font-semibold text-4xl text-white text-center">
+              Galería
+            </h2>
+            <Carousel picData={fotos} />
           </div>
         </section>
       </MainLayout>

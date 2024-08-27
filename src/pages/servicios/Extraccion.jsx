@@ -3,10 +3,14 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import MainLayout from "../../layout/MainLayout";
 import Carousel from "../../components/Carousel";
-import { ArrowPathRoundedSquareIcon, CloudIcon, SunIcon, WalletIcon } from "@heroicons/react/20/solid";
+import {
+  ArrowPathRoundedSquareIcon,
+  CloudIcon,
+  SunIcon,
+  WalletIcon,
+} from "@heroicons/react/20/solid";
 
 const Extraccion = () => {
-
   const fotos = [
     {
       img: "/img/servicios/extraccion/ext1.jpg",
@@ -51,14 +55,17 @@ const Extraccion = () => {
     {
       img: "/img/servicios/extraccion/ext11.jpg",
       alt: "extraccion 11",
-    } 
+    },
   ];
 
   return (
     <main className="w-screen">
       <Helmet>
         <title>Extracción de aire para techos | Zinguería Don Torcuato</title>
-        <meta name="description" content="Mejorá la calidad del aire de tus espacios con la extracción para techos de Zinguería Don Torcuato. Extrae humos, olores desagradables y limpia el aire." />
+        <meta
+          name="description"
+          content="Mejorá la calidad del aire de tus espacios con la extracción para techos de Zinguería Don Torcuato. Extrae humos, olores desagradables y limpia el aire."
+        />
       </Helmet>
       <MainLayout>
         <section className="">
@@ -102,17 +109,24 @@ const Extraccion = () => {
                       Zinguería Don Torcuato
                     </p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                      Extracción
+                      Extracción para empresas
                     </h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                      Su función principal es mejorar la circulación del aire,
-                      eliminar olores no deseados, reducir la humedad y prevenir
-                      la acumulación de contaminantes que pueden afectar la
-                      salud y el confort de los ocupantes.
+                      Su función principal es mejorar la circulación del aire en
+                      entornos industriales o comerciales, eliminar olores no
+                      deseados, reducir la humedad y prevenir la acumulación de
+                      contaminantes que pueden afectar la salud y el confort de
+                      los ocupantes, garantizando así un ambiente de trabajo más
+                      seguro y eficiente para las empresas.
                     </p>
                   </div>
                   <div className="flex items-center pt-4">
-                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
+                    <Link
+                      to={"/contacto"}
+                      className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white"
+                    >
+                      Contacto
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -142,7 +156,7 @@ const Extraccion = () => {
                       Gastronómicas, textiles, madereras.
                     </p>
                     <ul role="list" className="mt-8 space-y-8 text-gray-600">
-                    <li className="flex gap-x-3">
+                      <li className="flex gap-x-3">
                         <ArrowPathRoundedSquareIcon
                           className="mt-1 h-5 w-5 flex-none text-indigo-600"
                           aria-hidden="true"
@@ -173,18 +187,20 @@ const Extraccion = () => {
                           formación de moho, daños en la pintura y deterioro de
                           materiales.
                         </span>
-                      </li>                   
+                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>     
+        </section>
         <section className="bg-gradient-to-b from-slate-950 to-slate-500">
           <div className="container m-auto px-4">
-            <h2 className=" font-semibold text-4xl text-white text-center">Galería</h2>
-            <Carousel picData={ fotos }/>
+            <h2 className=" font-semibold text-4xl text-white text-center">
+              Galería
+            </h2>
+            <Carousel picData={fotos} />
           </div>
         </section>
       </MainLayout>

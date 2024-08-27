@@ -2,12 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import MainLayout from "../../layout/MainLayout";
-import Galeria from '../../components/Galeria'
+import Galeria from "../../components/Galeria";
 import Carousel from "../../components/Carousel";
-import { ClockIcon, CloudIcon, HomeModernIcon } from "@heroicons/react/20/solid";
+import {
+  ClockIcon,
+  CloudIcon,
+  HomeModernIcon,
+} from "@heroicons/react/20/solid";
 
 const Canaletas = () => {
-
   const fotos = [
     {
       img: "/img/servicios/canaletas/can1.JPG",
@@ -76,14 +79,17 @@ const Canaletas = () => {
     {
       img: "/img/servicios/canaletas/can17.jpg",
       alt: "Canaletas 17",
-    }  
+    },
   ];
 
   return (
     <main className="w-screen">
       <Helmet>
         <title>Canaletas para techos | Zinguería Don Torcuato</title>
-        <meta name="description" content="En Zinguería Don Torcuato, ofrecemos canaletas de alta calidad para todo tipo de proyectos, asegurando eficiencia y durabilidad en la evacuación de agua." />
+        <meta
+          name="description"
+          content="En Zinguería Don Torcuato, ofrecemos canaletas de alta calidad para todo tipo de proyectos, asegurando eficiencia y durabilidad en la evacuación de agua."
+        />
       </Helmet>
       <MainLayout>
         <section className="">
@@ -127,18 +133,26 @@ const Canaletas = () => {
                       Zinguería Don Torcuato
                     </p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                      Canaletas
+                      Canaletas para empresas
                     </h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
                       Fabricadas típicamente en metal, PVC o aluminio, estas
-                      estructuras se instalan a lo largo del borde del techo
-                      para recolectar el agua de lluvia y dirigirla de manera
-                      segura y controlada hacia los desagües pluviales o
-                      sistemas de recolección de agua.
+                      estructuras son fundamentales para empresas que buscan una
+                      solución duradera y eficiente para la recolección y
+                      gestión del agua de lluvia en sus instalaciones. Se
+                      instalan a lo largo del borde del techo para recolectar el
+                      agua de manera segura y controlada, dirigiéndola hacia los
+                      desagües pluviales o sistemas de recolección de agua,
+                      protegiendo así la infraestructura empresarial.
                     </p>
                   </div>
                   <div className="flex items-center pt-4">
-                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
+                    <Link
+                      to={"/contacto"}
+                      className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white"
+                    >
+                      Contacto
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -215,11 +229,13 @@ const Canaletas = () => {
               </div>
             </div>
           </div>
-        </section>        
+        </section>
         <section className="bg-gradient-to-b from-slate-950 to-slate-500">
           <div className="container m-auto px-4">
-            <h2 className=" font-semibold text-4xl text-white text-center">Galería</h2>
-            <Carousel picData={ fotos }/>
+            <h2 className=" font-semibold text-4xl text-white text-center">
+              Galería
+            </h2>
+            <Carousel picData={fotos} />
           </div>
         </section>
       </MainLayout>

@@ -2,12 +2,15 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import MainLayout from "../../layout/MainLayout";
-import Galeria from '../../components/Galeria'
+import Galeria from "../../components/Galeria";
 import Carousel from "../../components/Carousel";
-import { ChevronDoubleRightIcon, SunIcon, WalletIcon } from "@heroicons/react/20/solid";
+import {
+  ChevronDoubleRightIcon,
+  SunIcon,
+  WalletIcon,
+} from "@heroicons/react/20/solid";
 
 const Pedido = () => {
-
   const fotos = [
     {
       img: "/img/servicios/pedido/ped1.jpg",
@@ -108,14 +111,17 @@ const Pedido = () => {
     {
       img: "/img/servicios/pedido/ped25.JPEG",
       alt: "pedido 25",
-    }    
+    },
   ];
 
   return (
-    <main className="w-screen">      
+    <main className="w-screen">
       <Helmet>
         <title>Trabajos de Zinguería a pedido | Zinguería Don Torcuato</title>
-        <meta name="description" content="En Zinguería Don Torcuato realizamos trabajos de calidad a pedido con chapa galvanizada, desde bateas y embudos hasta cúpulas y decoraciones." />
+        <meta
+          name="description"
+          content="En Zinguería Don Torcuato realizamos trabajos de calidad a pedido con chapa galvanizada, desde bateas y embudos hasta cúpulas y decoraciones."
+        />
       </Helmet>
       <MainLayout>
         <section className="">
@@ -159,16 +165,22 @@ const Pedido = () => {
                       Zinguería Don Torcuato
                     </p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                      Trabajos a pedido
+                      Trabajos a pedido para empresas
                     </h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                      Cada trabajo se realiza buscando cumplir con los más altos
-                      estándares de calidad y satisfacer las necesidades únicas
-                      de nuestros clientes.
+                      Cada trabajo se realiza con el objetivo de cumplir con los
+                      más altos estándares de calidad, adaptándonos a las
+                      necesidades específicas de las empresas que confían en
+                      nuestros servicios.
                     </p>
                   </div>
                   <div className="flex items-center pt-4">
-                  <Link to={'/contacto'} className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white">Conocer más</Link>
+                    <Link
+                      to={"/contacto"}
+                      className="bg-blue-800 rounded-lg px-4 py-2 font-semibold text-white"
+                    >
+                      Contacto
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -183,10 +195,11 @@ const Pedido = () => {
                 <div className="lg:pr-4">
                   <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                     <p>
-                    Estos trabajos a pedido suelen requerir terminación en chapa galvanizada y pueden ser de los más variados tipos, entre los cuales se encuentran:
+                      Estos trabajos a pedido suelen requerir terminación en
+                      chapa galvanizada y pueden ser de los más variados tipos,
+                      entre los cuales se encuentran:
                     </p>
-                    <ul role="list" className="mt-8 text-gray-600">                     
-
+                    <ul role="list" className="mt-8 text-gray-600">
                       <li className="flex gap-x-3">
                         <ChevronDoubleRightIcon
                           className="mt-1 h-5 w-5 flex-none text-indigo-600"
@@ -194,8 +207,29 @@ const Pedido = () => {
                         />
                         <span>
                           <p className="text-gray-900">
-                            Bateas contenedoras de líquidos, como pintura o aceites
-                          </p>{" "}                          
+                            Bateas contenedoras de líquidos, como pintura o
+                            aceites
+                          </p>{" "}
+                        </span>
+                      </li>
+
+                      <li className="flex gap-x-3">
+                        <ChevronDoubleRightIcon
+                          className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                          aria-hidden="true"
+                        />
+                        <span>
+                          <p className="text-gray-900">Embudos Galvanizados</p>{" "}
+                        </span>
+                      </li>
+
+                      <li className="flex gap-x-3">
+                        <ChevronDoubleRightIcon
+                          className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                          aria-hidden="true"
+                        />
+                        <span>
+                          <p className="text-gray-900">Baldes Galvanizados</p>{" "}
                         </span>
                       </li>
 
@@ -206,8 +240,19 @@ const Pedido = () => {
                         />
                         <span>
                           <p className="text-gray-900">
-                          Embudos Galvanizados
-                          </p>{" "}                          
+                            Cúpulas de Iglesia, terminación en galvanizados y
+                            cobre
+                          </p>{" "}
+                        </span>
+                      </li>
+
+                      <li className="flex gap-x-3">
+                        <ChevronDoubleRightIcon
+                          className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                          aria-hidden="true"
+                        />
+                        <span>
+                          <p className="text-gray-900">Pináculos</p>{" "}
                         </span>
                       </li>
 
@@ -218,8 +263,9 @@ const Pedido = () => {
                         />
                         <span>
                           <p className="text-gray-900">
-                          Baldes Galvanizados 
-                          </p>{" "}                          
+                            Artículos de decoración, veletas, guardas de
+                            cumbrera
+                          </p>{" "}
                         </span>
                       </li>
 
@@ -229,59 +275,22 @@ const Pedido = () => {
                           aria-hidden="true"
                         />
                         <span>
-                          <p className="text-gray-900">
-                          Cúpulas de Iglesia, terminación en galvanizados y cobre
-                          </p>{" "}                          
+                          <p className="text-gray-900">Tapas de tanque</p>{" "}
                         </span>
                       </li>
-
-                      <li className="flex gap-x-3">
-                        <ChevronDoubleRightIcon
-                          className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                          aria-hidden="true"
-                        />
-                        <span>
-                          <p className="text-gray-900">
-                          Pináculos
-                          </p>{" "}                          
-                        </span>
-                      </li>
-
-                      <li className="flex gap-x-3">
-                        <ChevronDoubleRightIcon
-                          className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                          aria-hidden="true"
-                        />
-                        <span>
-                          <p className="text-gray-900">
-                          Artículos de decoración, veletas, guardas de cumbrera
-                          </p>{" "}                          
-                        </span>
-                      </li>
-
-                      <li className="flex gap-x-3">
-                        <ChevronDoubleRightIcon
-                          className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                          aria-hidden="true"
-                        />
-                        <span>
-                          <p className="text-gray-900">
-                          Tapas de tanque
-                          </p>{" "}                          
-                        </span>
-                      </li>
-
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>   
+        </section>
         <section className="bg-gradient-to-b from-slate-950 to-slate-500">
           <div className="container m-auto px-4">
-            <h2 className=" font-semibold text-4xl text-white text-center">Galería</h2>
-            <Carousel picData={ fotos }/>
+            <h2 className=" font-semibold text-4xl text-white text-center">
+              Galería
+            </h2>
+            <Carousel picData={fotos} />
           </div>
         </section>
       </MainLayout>
