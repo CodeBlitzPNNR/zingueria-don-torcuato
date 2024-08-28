@@ -13,103 +13,103 @@ import {
 const Pedido = () => {
   const fotos = [
     {
-      img: "/img/servicios/pedido/ped1.jpg",
+      img: "/img/servicios/pedido/ped1.webp",
       alt: "pedido 1",
     },
     {
-      img: "/img/servicios/pedido/ped2.jpeg",
+      img: "/img/servicios/pedido/ped2.webp",
       alt: "pedido 2",
     },
     {
-      img: "/img/servicios/pedido/ped3.JPEG",
+      img: "/img/servicios/pedido/ped3.webp",
       alt: "pedido 3",
     },
     {
-      img: "/img/servicios/pedido/ped4.JPEG",
+      img: "/img/servicios/pedido/ped4.webp",
       alt: "pedido 4",
     },
     {
-      img: "/img/servicios/pedido/ped5.jpg",
+      img: "/img/servicios/pedido/ped5.webp",
       alt: "pedido 5",
     },
     {
-      img: "/img/servicios/pedido/ped6.jpg",
+      img: "/img/servicios/pedido/ped6.webp",
       alt: "pedido 6",
     },
     {
-      img: "/img/servicios/pedido/ped7.jpg",
+      img: "/img/servicios/pedido/ped7.webp",
       alt: "pedido 7",
     },
     {
-      img: "/img/servicios/pedido/ped8.jpg",
+      img: "/img/servicios/pedido/ped8.webp",
       alt: "pedido 8",
     },
     {
-      img: "/img/servicios/pedido/ped9.jpg",
+      img: "/img/servicios/pedido/ped9.webp",
       alt: "pedido 9",
     },
     {
-      img: "/img/servicios/pedido/ped10.jpg",
+      img: "/img/servicios/pedido/ped10.webp",
       alt: "pedido 10",
     },
     {
-      img: "/img/servicios/pedido/ped11.jpg",
+      img: "/img/servicios/pedido/ped11.webp",
       alt: "pedido 11",
     },
     {
-      img: "/img/servicios/pedido/ped12.JPEG",
+      img: "/img/servicios/pedido/ped12.webp",
       alt: "pedido 12",
     },
     {
-      img: "/img/servicios/pedido/ped13.JPEG",
+      img: "/img/servicios/pedido/ped13.webp",
       alt: "pedido 13",
     },
     {
-      img: "/img/servicios/pedido/ped14.jpg",
+      img: "/img/servicios/pedido/ped14.webp",
       alt: "pedido 14",
     },
     {
-      img: "/img/servicios/pedido/ped15.jpg",
+      img: "/img/servicios/pedido/ped15.webp",
       alt: "pedido 15",
     },
     {
-      img: "/img/servicios/pedido/ped16.jpg",
+      img: "/img/servicios/pedido/ped16.webp",
       alt: "pedido 16",
     },
     {
-      img: "/img/servicios/pedido/ped17.jpg",
+      img: "/img/servicios/pedido/ped17.webp",
       alt: "pedido 17",
     },
     {
-      img: "/img/servicios/pedido/ped18.jpg",
+      img: "/img/servicios/pedido/ped18.webp",
       alt: "pedido 18",
     },
     {
-      img: "/img/servicios/pedido/ped19.jpg",
+      img: "/img/servicios/pedido/ped19.webp",
       alt: "pedido 19",
     },
     {
-      img: "/img/servicios/pedido/ped20.JPEG",
+      img: "/img/servicios/pedido/ped20.webp",
       alt: "pedido 20",
     },
     {
-      img: "/img/servicios/pedido/ped21.jpg",
+      img: "/img/servicios/pedido/ped21.webp",
       alt: "pedido 21",
     },
     {
-      img: "/img/servicios/pedido/ped22.jpg",
+      img: "/img/servicios/pedido/ped22.webp",
       alt: "pedido 22",
     },
     {
-      img: "/img/servicios/pedido/ped23.JPEG",
+      img: "/img/servicios/pedido/ped23.webp",
       alt: "pedido 23",
     },
     {
-      img: "/img/servicios/pedido/ped24.JPEG",
+      img: "/img/servicios/pedido/ped24.webp",
       alt: "pedido 24",
     },
     {
-      img: "/img/servicios/pedido/ped25.JPEG",
+      img: "/img/servicios/pedido/ped25.webp",
       alt: "pedido 25",
     },
   ];
@@ -187,7 +187,7 @@ const Pedido = () => {
               <div className="p-4 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                 <img
                   className="w-[48rem] max-w-[100%] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]"
-                  src=" /img/sections/pedido.jpg"
+                  src=" /img/sections/pedido.webp"
                   alt="Imagen de ornamentos metálicos con diseño de flor de lis, alineados en estanterías para su almacenamiento o exposición."
                 />
               </div>

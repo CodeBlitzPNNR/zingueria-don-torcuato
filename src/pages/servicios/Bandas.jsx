@@ -8,43 +8,43 @@ import { CloudArrowDownIcon, LockClosedIcon } from "@heroicons/react/20/solid";
 const Bandas = () => {
   const fotos = [
     {
-      img: "/img/servicios/bandas/ban1.jpg",
+      img: "/img/servicios/bandas/ban1.webp",
       alt: "bandas 1",
     },
     {
-      img: "/img/servicios/bandas/ban2.jpg",
+      img: "/img/servicios/bandas/ban2.webp",
       alt: "bandas 2",
     },
     {
-      img: "/img/servicios/bandas/ban3.jpg",
+      img: "/img/servicios/bandas/ban3.webp",
       alt: "bandas 3",
     },
     {
-      img: "/img/servicios/bandas/ban4.jpg",
+      img: "/img/servicios/bandas/ban4.webp",
       alt: "bandas 4",
     },
     {
-      img: "/img/servicios/bandas/ban5.JPEG",
+      img: "/img/servicios/bandas/ban5.webp",
       alt: "bandas 5",
     },
     {
-      img: "/img/servicios/bandas/ban6.JPEG",
+      img: "/img/servicios/bandas/ban6.webp",
       alt: "bandas 6",
     },
     {
-      img: "/img/servicios/bandas/ban7.jpg",
+      img: "/img/servicios/bandas/ban7.webp",
       alt: "bandas 7",
     },
     {
-      img: "/img/servicios/bandas/ban8.jpg",
+      img: "/img/servicios/bandas/ban8.webp",
       alt: "bandas 8",
     },
     {
-      img: "/img/servicios/bandas/ban9.jpg",
+      img: "/img/servicios/bandas/ban9.webp",
       alt: "bandas 9",
     },
     {
-      img: "/img/servicios/bandas/ban10.jpg",
+      img: "/img/servicios/bandas/ban10.webp",
       alt: "bandas 10",
     },
   ];
@@ -124,7 +124,7 @@ const Bandas = () => {
               <div className="p-4 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                 <img
                   className="w-[48rem] max-w-[100%] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]"
-                  src="/img/sections/bandas.jpg"
+                  src="/img/sections/bandas.webp"
                   alt="Imagen de bandas perimetrales instaladas en un techo, utilizadas para realizar la junta de dilatación entre el techo y los muros de carga."
                 />
               </div>

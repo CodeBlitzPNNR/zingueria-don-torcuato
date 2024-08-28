@@ -14,30 +14,7 @@ export default function SimpleSlider({ picData }) {
     speed: 500,    
     slidesToShow: 1,
     slidesToScroll: 1,
-    waitForAnimate: false
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 3,
-    //       slidesToScroll: 3,                    
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 600,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 2,          
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 480,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1
-    //     }
-    //   }
-    // ]
+    waitForAnimate: false    
   }
 
   return (

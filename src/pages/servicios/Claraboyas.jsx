@@ -14,19 +14,19 @@ import {
 const Claraboyas = () => {
   const fotos = [
     {
-      img: "/img/servicios/claraboyas/cla1.jpg",
+      img: "/img/servicios/claraboyas/cla1.webp",
       alt: "claraboyas 1",
     },
     {
-      img: "/img/servicios/claraboyas/cla2.jpg",
+      img: "/img/servicios/claraboyas/cla2.webp",
       alt: "claraboyas 2",
     },
     {
-      img: "/img/servicios/claraboyas/cla3.jpg",
+      img: "/img/servicios/claraboyas/cla3.webp",
       alt: "claraboyas 3",
     },
     {
-      img: "/img/servicios/claraboyas/cla4.jpg",
+      img: "/img/servicios/claraboyas/cla4.webp",
       alt: "claraboyas 4",
     },
   ];
@@ -107,7 +107,7 @@ const Claraboyas = () => {
               <div className="p-4 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                 <img
                   className="w-[48rem] max-w-[100%] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]"
-                  src=" /img/sections/claraboyas.jpg"
+                  src=" /img/sections/claraboyas.webp"
                   alt="Imagen de un techo con chapas metálicas y claraboyas instaladas, permitiendo la entrada de luz natural."
                 />
               </div>

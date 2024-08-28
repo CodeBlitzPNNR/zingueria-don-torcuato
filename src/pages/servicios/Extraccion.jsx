@@ -13,11 +13,11 @@ import {
 const Extraccion = () => {
   const fotos = [
     {
-      img: "/img/servicios/extraccion/ext1.jpg",
+      img: "/img/servicios/extraccion/ext1.webp",
       alt: "extraccion 1",
     },
     {
-      img: "/img/servicios/extraccion/ext2.jpg",
+      img: "/img/servicios/extraccion/ext2.webp",
       alt: "extraccion 2",
     },
     {
@@ -29,31 +29,31 @@ const Extraccion = () => {
       alt: "extraccion 4",
     },
     {
-      img: "/img/servicios/extraccion/ext5.jpg",
+      img: "/img/servicios/extraccion/ext5.webp",
       alt: "extraccion 5",
     },
     {
-      img: "/img/servicios/extraccion/ext6.jpg",
+      img: "/img/servicios/extraccion/ext6.webp",
       alt: "extraccion 6",
     },
     {
-      img: "/img/servicios/extraccion/ext7.jpg",
+      img: "/img/servicios/extraccion/ext7.webp",
       alt: "extraccion 7",
     },
     {
-      img: "/img/servicios/extraccion/ext8.jpg",
+      img: "/img/servicios/extraccion/ext8.webp",
       alt: "extraccion 8",
     },
     {
-      img: "/img/servicios/extraccion/ext9.jpg",
+      img: "/img/servicios/extraccion/ext9.webp",
       alt: "extraccion 9",
     },
     {
-      img: "/img/servicios/extraccion/ext10.jpg",
+      img: "/img/servicios/extraccion/ext10.webp",
       alt: "extraccion 10",
     },
     {
-      img: "/img/servicios/extraccion/ext11.jpg",
+      img: "/img/servicios/extraccion/ext11.webp",
       alt: "extraccion 11",
     },
   ];
@@ -133,7 +133,7 @@ const Extraccion = () => {
               <div className="p-4 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                 <img
                   className="w-[48rem] max-w-[100%] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]"
-                  src="/img/sections/extraccion.jpg"
+                  src="/img/sections/extraccion.webp"
                   alt="Imagen de un extractor de aire metálico utilizado para ventilación en sistemas de techos."
                 />
               </div>

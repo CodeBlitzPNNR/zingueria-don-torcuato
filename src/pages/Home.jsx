@@ -2,20 +2,20 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import MainLayout from "../layout/MainLayout";
 import Card from "../components/Card";
-import Logo1 from "/img/partners/LogoRefer1.png";
-import Logo2 from "/img/partners/LogoRefer2.png";
-import Logo3 from "/img/partners/LogoRefer3.svg";
-import Logo4 from "/img/partners/LogoRefer4.png";
-import Logo5 from "/img/partners/LogoRefer5.png";
-import Logo6 from "/img/partners/LogoRefer6.png";
-import Logo7 from "/img/partners/LogoRefer7.png";
-import Logo8 from "/img/partners/LogoRefer8.png";
-import img1 from "/img/chapas.jpg";
-import img2 from "/img/canaletas.jpg";
-import img3 from "/img/bandas.jpg";
-import img4 from "/img/eolicos.jpg";
-import img5 from "/img/claraboyas.jpg";
-import img6 from "/img/pedido.jpg";
+import Logo1 from "/img/partners/LogoRefer1.webp";
+import Logo2 from "/img/partners/LogoRefer2.webp";
+import Logo3 from "/img/partners/LogoRefer3.webp";
+import Logo4 from "/img/partners/LogoRefer4.webp";
+import Logo5 from "/img/partners/LogoRefer5.webp";
+import Logo6 from "/img/partners/LogoRefer6.webp";
+import Logo7 from "/img/partners/LogoRefer7.webp";
+import Logo8 from "/img/partners/LogoRefer8.webp";
+import img1 from "/img/chapas.webp";
+import img2 from "/img/canaletas.webp";
+import img3 from "/img/bandas.webp";
+import img4 from "/img/eolicos.webp";
+import img5 from "/img/claraboyas.webp";
+import img6 from "/img/pedido.webp";
 
 export const Home = () => {
   return (
@@ -98,7 +98,7 @@ export const Home = () => {
               <div className="p-4 text-slate-300">
                 <div className="flex flex-col max-w-2xl justify-center items-center px-4">
                   <img
-                    src="./img/logoWhite.png"
+                    src="./img/logoWhite.webp"
                     alt="Logo"
                     className="drop-shadow-2xl w-72"
                   />
@@ -122,14 +122,7 @@ export const Home = () => {
                     galvanizadas, fibro cemento, provisión y recambio de todo
                     tipo de canaletas y zinguerias en general.
                   </p>
-                </div>
-                {/* <div className="lg:flex justify-center p-2 bg-white shadow-lg rounded-md hidden">
-                <img
-                  src={img7}
-                  alt="Img Nosotros"
-                  className="bg-black rounded-lg"
-                />
-              </div>               */}
+                </div>               
               </div>
             </div>
           </section>

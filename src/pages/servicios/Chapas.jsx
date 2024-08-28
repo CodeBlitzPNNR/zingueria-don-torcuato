@@ -8,39 +8,39 @@ import { SunIcon, WalletIcon } from "@heroicons/react/20/solid";
 const Chapas = () => {
   const fotos = [
     {
-      img: "/img/servicios/chapas/cha1.jpg",
+      img: "/img/servicios/chapas/cha1.webp",
       alt: "chapas 1",
     },
     {
-      img: "/img/servicios/chapas/cha2.jpg",
+      img: "/img/servicios/chapas/cha2.webp",
       alt: "chapas 2",
     },
     {
-      img: "/img/servicios/chapas/cha3.jpg",
+      img: "/img/servicios/chapas/cha3.webp",
       alt: "chapas 3",
     },
     {
-      img: "/img/servicios/chapas/cha4.jpg",
+      img: "/img/servicios/chapas/cha4.webp",
       alt: "chapas 4",
     },
     {
-      img: "/img/servicios/chapas/cha5.jpg",
+      img: "/img/servicios/chapas/cha5.webp",
       alt: "chapas 5",
     },
     {
-      img: "/img/servicios/chapas/cha6.jpg",
+      img: "/img/servicios/chapas/cha6.webp",
       alt: "chapas 6",
     },
     {
-      img: "/img/servicios/chapas/cha7.JPG",
+      img: "/img/servicios/chapas/cha7.webp",
       alt: "chapas 7",
     },
     {
-      img: "/img/servicios/chapas/cha8.jpg",
+      img: "/img/servicios/chapas/cha8.webp",
       alt: "chapas 8",
     },
     {
-      img: "/img/servicios/chapas/cha9.jpg",
+      img: "/img/servicios/chapas/cha9.webp",
       alt: "chapas 9",
     },
   ];
@@ -121,7 +121,7 @@ const Chapas = () => {
               <div className="p-4 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                 <img
                   className="w-[48rem] max-w-[100%] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[50rem]"
-                  src=" /img/sections/chapas.jpg"
+                  src=" /img/sections/chapas.webp"
                   alt="Imagen de una chapa de techo, donde se observa una parte oxidada y otra parte con una chapa nueva y translúcida."
                 />
               </div>

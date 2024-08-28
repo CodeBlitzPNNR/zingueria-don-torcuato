@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toastTrigger } from "../helpers";
-import contactImg from "/img/contact.jpg";
+import contactImg from "/img/contact.webp";
 import "./form.css";
 
 export default function Form() {
@@ -82,19 +82,8 @@ export default function Form() {
           </div>
 
           <div className="form-group">
-            <label for="text">Empresa</label>
-            {/* include validation with required or other standard HTML validation rules */}
+            <label for="text">Empresa</label>            
             <input {...register("empresa")} type="text" />
-          </div>
-
-          <div className="form-group">
-            <label for="negocio">Tipo de negocio</label>
-            <select {...register("negocio")} name="negocio" id="neg">
-              <option value="fabrica">Fábrica</option>
-              <option value="deposito">Depósito</option>
-              <option value="comercio">Comercio</option>
-              <option value="otro">Otro</option>              
-            </select>            
           </div>
 
           <div className="form-group">

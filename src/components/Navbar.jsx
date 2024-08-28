@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Dropdown from '../components/Dropdown';
-import logo from '../../public/img/logoWhite.png';
+import logo from '../../public/img/logoWhite.webp';
 
 
 const Navbar = () => {
