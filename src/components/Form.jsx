@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toastTrigger } from "../helpers";
 import contactImg from "/img/contact.webp";
@@ -14,6 +14,11 @@ export default function Form() {
   } = useForm();
 
   const formRef = useRef();
+  const [showInput, setShowInput] = useState(false);
+
+  function handleSelect (event) {
+    console.log('Seleccionado')    
+  };
 
   const onSubmit = () => {
     emailjs
@@ -22,7 +27,7 @@ export default function Form() {
       })
       .then(
         () => {
-          console.log("Form", formRef.current)
+          console.log("Form", formRef.current);
           toastTrigger(
             "success",
             "Mensaje enviado, responderemos lo antes posible."
@@ -37,7 +42,7 @@ export default function Form() {
           reset();
           console.log(error);
         }
-      );      
+      );
   };
 
   return (
@@ -52,7 +57,7 @@ export default function Form() {
           <label className="text-slate-100 font-semibold text-4xl">
             Contacto
           </label>
-          <div className="text-md font-semibold flex flex-col gap-1 text-slate-300">
+          <div className="text-md font-semibold flex flex-col gap-2 text-slate-300 pt-2 pb-4">
             <a href="tel:+54 9 11-5308-8311">📞 11-5308-8311</a>
             <a href="mailto:obras@zingueriadontorcuato.com">
               📧 obras@zingueriadontorcuato.com
@@ -65,7 +70,7 @@ export default function Form() {
 
           <div className="form-group">
             <label for="name">Nombre</label>
-            <input              
+            <input
               name="nombre"
               id="nombre"
               type="text"
@@ -82,9 +87,44 @@ export default function Form() {
           </div>
 
           <div className="form-group">
-            <label for="text">Empresa</label>            
+            <label for="text">Empresa</label>
             <input {...register("empresa")} type="text" />
           </div>
+
+          <div className="form-group input">
+            <label for="negocio">Tipo de negocio</label>
+            <input type="select" />
+            <select   
+              onChange={() => {console.log('Hola')}}                                   
+              className="options bg-transparent px-[12px] py-[8px] border border-[#adadad] rounded-md "
+              {...register("negocio")}
+              name="negocio"
+              id="neg"
+            >
+              <option defaultValue className="text-gray-700">
+                Elija su tipo de negocio...
+              </option>
+              <option className="text-black" value="Fábrica">
+                Fábrica
+              </option>
+              <option className="text-black" value="Depósito">
+                Depósito
+              </option>
+              <option className="text-black" value="Comercio">
+                Comercio
+              </option>
+              <option onChange={() => {console.log('Hola')}} className="text-black" value="Otro">
+                Otro
+              </option>
+            </select>
+          </div>
+
+          {showInput ? (
+            <div className="form-group form-hidden">
+              <label for="otro">Especifique su tipo de negocio</label>
+              <input name="otro" id="otro" type="text" {...register("otro")} />
+            </div>
+          ) : null}
 
           <div className="form-group">
             <label for="textarea">¿Cómo podemos ayudarte?</label>
