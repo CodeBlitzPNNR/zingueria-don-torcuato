@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { toastTrigger } from "../helpers";
 import contactImg from "/img/contact.webp";
@@ -9,16 +9,20 @@ export default function Form() {
   const {
     register,
     handleSubmit,
+    watch,
     reset,
     formState: { errors },
   } = useForm();
 
   const formRef = useRef();
-  const [showInput, setShowInput] = useState(false);
+  const [showInput, setShowInput] = useState(false);  
 
-  function handleSelect (event) {
-    console.log('Seleccionado')    
-  };
+  useEffect(() => {
+    const subscription = watch((value) =>    
+    (value.negocio === 'Otro' ? setShowInput(true) : setShowInput(false))
+    )
+    return () => subscription.unsubscribe()
+  }, [watch])
 
   const onSubmit = () => {
     emailjs
@@ -92,8 +96,7 @@ export default function Form() {
           </div>
 
           <div className="form-group input">
-            <label for="negocio">Tipo de negocio</label>
-            <input type="select" />
+            <label for="negocio">Tipo de negocio</label>            
             <select   
               onChange={() => {console.log('Hola')}}                                   
               className="options bg-transparent px-[12px] py-[8px] border border-[#adadad] rounded-md "
@@ -113,7 +116,7 @@ export default function Form() {
               <option className="text-black" value="Comercio">
                 Comercio
               </option>
-              <option onChange={() => {console.log('Hola')}} className="text-black" value="Otro">
+              <option className="text-black" value="Otro">
                 Otro
               </option>
             </select>
@@ -122,7 +125,7 @@ export default function Form() {
           {showInput ? (
             <div className="form-group form-hidden">
               <label for="otro">Especifique su tipo de negocio</label>
-              <input name="otro" id="otro" type="text" {...register("otro")} />
+              <input name="otro" id="otro" type="text" {...register("tipo")} />
             </div>
           ) : null}
 
@@ -142,7 +145,7 @@ export default function Form() {
           </button>
         </div>
         <div></div>
-      </form>
+      </form>      
     </div>
   );
 }
