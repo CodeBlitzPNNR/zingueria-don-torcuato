@@ -5,7 +5,7 @@ import wpLogo from '../../public/img/whatsapp-logo.svg'
 const WpWidget = () => {
   return (
     <div
-      className="sticky-wp rounded-2xl"
+      className="sticky-wp rounded-full"
       id="wpLogo"
     >
       <a target="_blank" href="https://wa.me/5491153088311">

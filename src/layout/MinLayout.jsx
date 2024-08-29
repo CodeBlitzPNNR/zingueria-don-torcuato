@@ -9,7 +9,7 @@ const MainLayout = ({ children }) => {
 
             { children }
           
-                
+                <WpWidget/>
           <Footer /> 
     </main>
   )

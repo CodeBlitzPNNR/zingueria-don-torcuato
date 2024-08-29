@@ -1,16 +1,22 @@
 .sticky-wp {
-    max-width: 68px;
+    max-width: 66px;
     position: absolute;
     position: fixed;
-    background: linear-gradient(45deg, #0b5304, #a4f34a);
-    left: 95%;
-    bottom: 20px;    
-    padding: 5px;    
+    background: linear-gradient(45deg, #0c6d03, #a4f34a);
+    right: 1%;
+    bottom: 1%;    
+    padding: 7px;    
     box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.41);
     -webkit-box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 4px 4px 2px -1px rgba(0, 0, 0, 0.41);
   }
   
   .sticky-wp:hover {
-    background: linear-gradient(45deg, #0b5304, #c8f891);
+    background: linear-gradient(45deg, #27c41c, #c2e49b);
+  }
+
+  @media screen and (max-width:768px){
+    .sticky-wp{
+      max-width: 54px;
+    }
   }
