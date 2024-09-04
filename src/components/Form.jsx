@@ -97,8 +97,7 @@ export default function Form() {
 
           <div className="form-group input">
             <label for="negocio">Tipo de negocio</label>            
-            <select   
-              onChange={() => {console.log('Hola')}}                                   
+            <select                 
               className="options bg-transparent px-[12px] py-[8px] border border-[#adadad] rounded-md "
               {...register("negocio")}
               name="negocio"
@@ -106,6 +105,9 @@ export default function Form() {
             >
               <option defaultValue className="text-gray-700">
                 Elija su tipo de negocio...
+              </option>
+              <option className="text-black" value="Particular">
+                Particular
               </option>
               <option className="text-black" value="Fábrica">
                 Fábrica
