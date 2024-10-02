@@ -15,14 +15,14 @@ export default function Form() {
   } = useForm();
 
   const formRef = useRef();
-  const [showInput, setShowInput] = useState(false);  
+  const [showInput, setShowInput] = useState(false);
 
   useEffect(() => {
-    const subscription = watch((value) =>    
-    (value.negocio === 'Otro' ? setShowInput(true) : setShowInput(false))
-    )
-    return () => subscription.unsubscribe()
-  }, [watch])
+    const subscription = watch((value) =>
+      value.negocio === "Otro" ? setShowInput(true) : setShowInput(false)
+    );
+    return () => subscription.unsubscribe();
+  }, [watch]);
 
   const onSubmit = () => {
     emailjs
@@ -96,8 +96,8 @@ export default function Form() {
           </div>
 
           <div className="form-group input">
-            <label for="negocio">Tipo de negocio</label>            
-            <select                 
+            <label for="negocio">Tipo de negocio</label>
+            <select
               className="options bg-transparent px-[12px] py-[8px] border border-[#adadad] rounded-md "
               {...register("negocio")}
               name="negocio"
@@ -143,11 +143,11 @@ export default function Form() {
             ></textarea>
           </div>
           <button type="submit" className="form-submit-btn">
-            Submit
+            Enviar
           </button>
         </div>
         <div></div>
-      </form>      
+      </form>
     </div>
   );
 }
